@@ -1,0 +1,66 @@
+{
+  "name": "dart-app",
+  "description": "eser.ozvataf.com",
+  "keywords": [
+    "typescript",
+    "react",
+    "spa",
+    "boilerplate",
+    "starter"
+  ],
+  "version": "0.10.0",
+  "homepage": "http://dart-app.s3-website-eu-west-1.amazonaws.com",
+  "author": "Eser Ozvataf <eser@ozvataf.com>",
+  "contributors": [
+    {
+      "name": "Eser Ozvataf",
+      "email": "eser@ozvataf.com",
+      "url": "http://eser.ozvataf.com/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eserozvataf/dart-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eserozvataf/dart-app/issues"
+  },
+  "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "scripts": {
+    "start": "dart start",
+    "dev": "dart dev",
+    "lint": "dart lint",
+    "test": "dart test",
+    "bundle": "dart bundle",
+    "bundle:prod": "dart bundle:prod",
+    "bundleServer": "dart bundleServer",
+    "bundleServer:prod": "dart bundleServer:prod",
+    "containerize": "dart containerize",
+    "aws:copy": "aws s3 sync ./dist s3://dart-app",
+    "aws:open": "start http://dart-app.s3-website-eu-west-1.amazonaws.com"
+  },
+  "dependencies": {
+    "dart-cli": "^0.16.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.14",
+    "@types/jest": "^23.3.5",
+    "@types/react": "^16.4.17",
+    "@types/react-router-dom": "^4.3.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "es6-cachemanager": "0.0.2",
+    "font-awesome": "^4.7.0",
+    "react": "^16.5.2",
+    "react-markdown": "^4.0.3",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  }
+}

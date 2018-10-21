@@ -1,0 +1,5 @@
+# Rule 1
+User-agent: *
+Allow: /
+
+# Sitemap: http://dart-app.s3-website-eu-west-1.amazonaws.com/sitemap.xml
