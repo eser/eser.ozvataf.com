@@ -6,8 +6,8 @@
   ],
   "version": "4.22.0",
   "hash": "6a88ba959c13fa30176b",
-  "time": 10020,
-  "builtAt": 1540301693014,
+  "time": 10294,
+  "builtAt": 1540328633049,
   "publicPath": "/",
   "outputPath": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/dist",
   "assetsByChunkName": {
@@ -3594,9 +3594,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/history/createBrowserHistory.js",
-          "issuerId": "./node_modules/history/createBrowserHistory.js",
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/history/createHashHistory.js",
+          "issuerId": "./node_modules/history/createHashHistory.js",
+          "issuerName": "./node_modules/history/createHashHistory.js",
           "issuerPath": [
             {
               "id": 0,
@@ -3624,9 +3624,9 @@
               "name": "./node_modules/history/index.js"
             },
             {
-              "id": "./node_modules/history/createBrowserHistory.js",
-              "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/history/createBrowserHistory.js",
-              "name": "./node_modules/history/createBrowserHistory.js"
+              "id": "./node_modules/history/createHashHistory.js",
+              "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/history/createHashHistory.js",
+              "name": "./node_modules/history/createHashHistory.js"
             }
           ],
           "failed": false,
@@ -7428,9 +7428,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/react-router/Redirect.js",
-          "issuerId": "./node_modules/react-router/Redirect.js",
-          "issuerName": "./node_modules/react-router/Redirect.js",
+          "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/react-router/Prompt.js",
+          "issuerId": "./node_modules/react-router/Prompt.js",
+          "issuerName": "./node_modules/react-router/Prompt.js",
           "issuerPath": [
             {
               "id": 0,
@@ -7448,9 +7448,9 @@
               "name": "./node_modules/react-router/index.js"
             },
             {
-              "id": "./node_modules/react-router/Redirect.js",
-              "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/react-router/Redirect.js",
-              "name": "./node_modules/react-router/Redirect.js"
+              "id": "./node_modules/react-router/Prompt.js",
+              "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/react-router/Prompt.js",
+              "name": "./node_modules/react-router/Prompt.js"
             }
           ],
           "failed": false,
@@ -15668,9 +15668,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/link.js",
-          "issuerId": "./node_modules/remark-parse/lib/tokenize/link.js",
-          "issuerName": "./node_modules/remark-parse/lib/tokenize/link.js",
+          "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/reference.js",
+          "issuerId": "./node_modules/remark-parse/lib/tokenize/reference.js",
+          "issuerName": "./node_modules/remark-parse/lib/tokenize/reference.js",
           "issuerPath": [
             {
               "id": 0,
@@ -15718,9 +15718,9 @@
               "name": "./node_modules/remark-parse/lib/parser.js"
             },
             {
-              "id": "./node_modules/remark-parse/lib/tokenize/link.js",
-              "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/link.js",
-              "name": "./node_modules/remark-parse/lib/tokenize/link.js"
+              "id": "./node_modules/remark-parse/lib/tokenize/reference.js",
+              "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/reference.js",
+              "name": "./node_modules/remark-parse/lib/tokenize/reference.js"
             }
           ],
           "failed": false,
@@ -19841,9 +19841,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/code-fenced.js",
-          "issuerId": "./node_modules/remark-parse/lib/tokenize/code-fenced.js",
-          "issuerName": "./node_modules/remark-parse/lib/tokenize/code-fenced.js",
+          "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/code-indented.js",
+          "issuerId": "./node_modules/remark-parse/lib/tokenize/code-indented.js",
+          "issuerName": "./node_modules/remark-parse/lib/tokenize/code-indented.js",
           "issuerPath": [
             {
               "id": 0,
@@ -19891,9 +19891,9 @@
               "name": "./node_modules/remark-parse/lib/parser.js"
             },
             {
-              "id": "./node_modules/remark-parse/lib/tokenize/code-fenced.js",
-              "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/code-fenced.js",
-              "name": "./node_modules/remark-parse/lib/tokenize/code-fenced.js"
+              "id": "./node_modules/remark-parse/lib/tokenize/code-indented.js",
+              "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/code-indented.js",
+              "name": "./node_modules/remark-parse/lib/tokenize/code-indented.js"
             }
           ],
           "failed": false,
@@ -27050,9 +27050,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/history/createBrowserHistory.js",
-      "issuerId": "./node_modules/history/createBrowserHistory.js",
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/history/createHashHistory.js",
+      "issuerId": "./node_modules/history/createHashHistory.js",
+      "issuerName": "./node_modules/history/createHashHistory.js",
       "issuerPath": [
         {
           "id": 0,
@@ -27080,9 +27080,9 @@
           "name": "./node_modules/history/index.js"
         },
         {
-          "id": "./node_modules/history/createBrowserHistory.js",
-          "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/history/createBrowserHistory.js",
-          "name": "./node_modules/history/createBrowserHistory.js"
+          "id": "./node_modules/history/createHashHistory.js",
+          "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/history/createHashHistory.js",
+          "name": "./node_modules/history/createHashHistory.js"
         }
       ],
       "failed": false,
@@ -30768,9 +30768,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/react-router/Redirect.js",
-      "issuerId": "./node_modules/react-router/Redirect.js",
-      "issuerName": "./node_modules/react-router/Redirect.js",
+      "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/react-router/Prompt.js",
+      "issuerId": "./node_modules/react-router/Prompt.js",
+      "issuerName": "./node_modules/react-router/Prompt.js",
       "issuerPath": [
         {
           "id": 0,
@@ -30788,9 +30788,9 @@
           "name": "./node_modules/react-router/index.js"
         },
         {
-          "id": "./node_modules/react-router/Redirect.js",
-          "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/react-router/Redirect.js",
-          "name": "./node_modules/react-router/Redirect.js"
+          "id": "./node_modules/react-router/Prompt.js",
+          "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/react-router/Prompt.js",
+          "name": "./node_modules/react-router/Prompt.js"
         }
       ],
       "failed": false,
@@ -39216,9 +39216,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/link.js",
-      "issuerId": "./node_modules/remark-parse/lib/tokenize/link.js",
-      "issuerName": "./node_modules/remark-parse/lib/tokenize/link.js",
+      "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/reference.js",
+      "issuerId": "./node_modules/remark-parse/lib/tokenize/reference.js",
+      "issuerName": "./node_modules/remark-parse/lib/tokenize/reference.js",
       "issuerPath": [
         {
           "id": 0,
@@ -39266,9 +39266,9 @@
           "name": "./node_modules/remark-parse/lib/parser.js"
         },
         {
-          "id": "./node_modules/remark-parse/lib/tokenize/link.js",
-          "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/link.js",
-          "name": "./node_modules/remark-parse/lib/tokenize/link.js"
+          "id": "./node_modules/remark-parse/lib/tokenize/reference.js",
+          "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/reference.js",
+          "name": "./node_modules/remark-parse/lib/tokenize/reference.js"
         }
       ],
       "failed": false,
@@ -43389,9 +43389,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/code-fenced.js",
-      "issuerId": "./node_modules/remark-parse/lib/tokenize/code-fenced.js",
-      "issuerName": "./node_modules/remark-parse/lib/tokenize/code-fenced.js",
+      "issuer": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/code-indented.js",
+      "issuerId": "./node_modules/remark-parse/lib/tokenize/code-indented.js",
+      "issuerName": "./node_modules/remark-parse/lib/tokenize/code-indented.js",
       "issuerPath": [
         {
           "id": 0,
@@ -43439,9 +43439,9 @@
           "name": "./node_modules/remark-parse/lib/parser.js"
         },
         {
-          "id": "./node_modules/remark-parse/lib/tokenize/code-fenced.js",
-          "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/code-fenced.js",
-          "name": "./node_modules/remark-parse/lib/tokenize/code-fenced.js"
+          "id": "./node_modules/remark-parse/lib/tokenize/code-indented.js",
+          "identifier": "/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/ts-loader/index.js??ref--5-0!/Users/eserozvataf/Projects/open-source/eser.ozvataf.com/node_modules/remark-parse/lib/tokenize/code-indented.js",
+          "name": "./node_modules/remark-parse/lib/tokenize/code-indented.js"
         }
       ],
       "failed": false,
