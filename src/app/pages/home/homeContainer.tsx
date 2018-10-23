@@ -52,6 +52,7 @@ class HomeContainer extends React.Component<HomeContainerProps, HomeContainerSta
 
         return (
             <React.Fragment>
+                <h1>Blog Yazılarım</h1>
                 {this.props.blog.data.map(post => (
                     <section key={`post-${post.id}`} id={post.id} className="post">
                         <h3 className="post-title">
@@ -69,6 +70,11 @@ class HomeContainer extends React.Component<HomeContainerProps, HomeContainerSta
                         </h3>
                     </section>
                 ))}
+                <section key="post-rest" id="rest" className="post">
+                    <h3 className="post-title">
+                        <a href={`https://medium.com/@eserozvataf`}>Devamı...</a>
+                    </h3>
+                </section>
             </React.Fragment>
         );
     }

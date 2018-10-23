@@ -25,25 +25,26 @@ class ProjectsContainer extends React.Component<ProjectsContainerProps, Projects
 
 ## Başlattığım Açık Kaynak Projeler
 
-- [dart](https://github.com/eserozvataf/dart) - *JavaScript*
-- [leaves](https://github.com/eserozvataf/leaves) - *JavaScript*
-- [hex-api-server](https://github.com/eserozvataf/hex-api-server) - *JavaScript*
-- [jsmake](https://github.com/eserozvataf/jsmake) - *JavaScript*
-- [jsmake-libraries](https://github.com/eserozvataf/jsmake-libraries) (maester, cofounder, ...) - *JavaScript*
-- [es6-cachemanager](https://github.com/eserozvataf/es6-cachemanager) - *JavaScript*
-- [servicemanager](https://github.com/eserozvataf/servicemanager) - *JavaScript*
-- [react-eventmanager](https://github.com/eserozvataf/react-eventmanager) - *JavaScript*
-- [entrepreneur](https://github.com/eserozvataf/entrepreneur) - *JavaScript*
-- [laroux.js](https://github.com/eserozvataf/laroux.js) - *JavaScript*
-- [sey](https://github.com/eserozvataf/sey) - *JavaScript*
-- [apibone](https://github.com/eserozvataf/apibone) - *JavaScript*
-- [Scabbia2 PHP Components](https://github.com/eserozvataf/scabbia2) - *PHP*
-- [PM Tool](https://github.com/eserozvataf/pm) - *PHP*
-- [Survey Tool](https://github.com/eserozvataf/survey) - *PHP*
-- [Tassle](https://github.com/eserozvataf/tassle) - *.NET Standard*
-- [Quake 3 Now](https://github.com/eserozvataf/q3now) - *C*
+[dart](https://github.com/eserozvataf/dart),
+[Tassle](https://github.com/eserozvataf/tassle),
+[jsmake](https://github.com/eserozvataf/jsmake),
+[jsmake-libraries](https://github.com/eserozvataf/jsmake-libraries),
+[react-eventmanager](https://github.com/eserozvataf/react-eventmanager),
+[laroux.js](https://github.com/eserozvataf/laroux.js),
+[sey](https://github.com/eserozvataf/sey),
+[apibone](https://github.com/eserozvataf/apibone),
+[Scabbia2 PHP Components](https://github.com/eserozvataf/scabbia2),
+[PM Tool](https://github.com/eserozvataf/pm),
+[Survey Tool](https://github.com/eserozvataf/survey),
+[Quake 3 Now](https://github.com/eserozvataf/q3now)
+
+ve [Diğerleri](https://github.com/eserozvataf)...
 
 ## Yer Aldığım Bazı Projeler
+
+2018
+
+- Kurumsal DevOps altyapısı ve Agile dönüşüm - *KoçSistem*
 
 2017
 

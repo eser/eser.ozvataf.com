@@ -17,16 +17,16 @@ class AboutContainer extends React.Component<AboutContainerProps, AboutContainer
             <ReactMarkdown source={`
 # Hakkında
 
-İsmim Eser Özvataf, yazılım geliştirmenin yanısıra devops, takım yönetimi, mentorluk, kalite yönetimi, kullanıcı deneyimi ve yazılım mimarileri ile ilgilenmekteyim.
+İsmim Eser Özvataf, devops, yazılım mimarisi, IT süreçleri, takım yönetimi, takım koçluğu, kalite yönetimi ve kullanıcı deneyimi konularıyla ilgilenmekteyim.
 
-Şu anda KoçSistem'de Yazılım Geliştirme Lideri olarak kurumsal ölçekte uygulamaların hizmet sürekliliğini sağlamaktayım. Zamanım el verdiğince cloud üzerinde çalışan yüksek lisans tez projem ve açık kaynak projelerim üzerinde de efor sarf ediyorum.
+Şu anda Setur'da Süreç Lideri olarak çalışmaktayım. Zamanım el verdiğince cloud üzerinde çalışan yüksek lisans tez projem ve açık kaynak projelerim üzerinde de efor sarf ediyorum.
 
 
 ## Geçmiş
 
 Eskişehir'den İzmir'e yerleşmiş o dönem pek çevresi olmayan bir çocukken 1993 senesinde bilgisayarla tanıştım.
 
-1994'den itibaren birer sene arayla programlamaya, BBSlere ve en nihayetinde internete girmem online içerik üretmek konusunda beni de cesaretlendirdi. Önce tek başıma, bir süre sonra çok katılımcılı web siteleri oluştururken amatör seviyede HTML ve ASP öğrenmeye başladım. Bir noktadan sonra freelance'den harçlık kazanmaya kadar ilerledim.
+1994'den itibaren birer sene arayla programlamaya, BBSlere ve en nihayetinde internete girmem online içerik üretmek konusunda beni de cesaretlendirdi. Önce tek başıma, bir süre sonra çok katılımcılı web siteleri oluştururken amatör seviyedeki Basic, Pascal ve C bilgimin üzerine HTML ve ASP öğrenmeye başladım. Bir noktadan sonra yazılım geliştirmeye olan ilgimi freelance çalışarak harçlık kazanmaya kadar ilerledim.
 
 2004'de Celal Bayar Üniversitesi Bilgisayar Programcılığı bölümünden mezun olduktan sonra İzmir'de sırasıyla Egebilgi, Ispro ve devBiz firmalarında Uzman Yazılım Geliştirici olarak çalıştım.
 
@@ -38,36 +38,32 @@ Eğitim hayatım boyunca açık kaynaklı projelerin oluşturulmasına ve geliş
 
 Aynı süreç içerisinde profesyonel olarak çeşitli e-ticaret ve mobil uygulama startuplarında yazılım mimarı, yazılım danışmanı ve yazılım geliştirici görevlerinde yer aldım.
 
-Evliliğim ve İzmir'e taşınmamla birlikte, KoçSistem'e katıldım. Şu anda Yazılım Geliştirme Lideri olarak görevlendirildiğim projelerin hizmet sürekliliğini sağlamaktayım.
+Evliliğim ve İzmir'e taşınmamla birlikte, Yazılım Geliştirme Lideri olarak KoçSistem'e katılarak görevlendirildiğim projelerde hizmet sürekliliğini sağladım. Yine KoçSistem içerisinde Ar-Ge ve İş Uygulamaları altında Kurumsal Mimari ekibinde görev aldım.
+
+Bugün ise Setur'da Süreç Lideri olarak çalışmaktayım.
 
 
 ## Deneyimler
 
-**Proje Yönetimi:** Scrum/Kanban, Agile Metodolojileri, Takım Liderliği
+**Proje Yönetimi:** Scrum, Agile Metodolojileri, Takım Liderliği
 
-**Yazılım Geliştirme:** Gereksinim Toplama, Planlama, Prototipleme, Continuous Integration ve Delivery, DevOps, Test Süreci, Ölçeklendirme
+**Yazılım Geliştirme:** Gereksinim Toplama, Planlama, Prototipleme, DevOps Süreçleri, Sürüm Kontrolü
 
-**Yazılım Mimarisi:** Bulut Mimarisi, Mikroservisler ve Servis Odaklı Mimari, UML ve şemalar
+**Yazılım Mimarisi:** Bulut Mimarisi, Mikroservisler ve Servis Odaklı Mimari, Ölçeklendirme, UML ve şemalar
 
 **Yazılım Tasarımı:** Nesne Yönelimli Programlama, Fonksiyonel Programlama, Tasarım Prensipleri, Defansif Programlama
 
-**Ürün Uzmanlığı:** APIler, Mesajlaşma Sistemleri, Sosyal Medya Uygulamaları, B2B/B2C E-Ticaret Uygulamaları, Web Uygulamaları
+**Ürünleştirme:** Product Ownership, Kalite Yönetimi, Kullanıcı Deneyimi
 
-**Ürünleştirme:** Kalite Yönetimi, Kullanıcı Deneyimi
+**Alan Bilgileri:** Yazılımcılara Araçlar, Mesajlaşma Sistemleri, Sosyal Medya Uygulamaları, B2B/B2C E-Ticaret Uygulamaları, Web Uygulamaları
 
-**Pazarlama:** SEO, Sosyal Medya Uygulamaları Geliştirme, Google Adwords, Google Webmaster Tools, Google Analytics, Google PageSpeed
-
-**Platform:** Linux, macOS, Windows, Amazon Web Services
+**Platform:** Linux, macOS, Windows, Amazon Web Services, Azure
 
 **Veri:** Postgres, SQL Server, MySql, Oracle, Mongodb, RabbitMQ, Memcached, Redis
 
-**Programlama:** JavaScript, C#, PHP, Java, C/C++
+**Programlama:** JavaScript (Front-end, Node, NPM), C# (.NET Core), PHP, Java, C/C++
 
-**Ekosistemler:** Node/NPM, .NET, .NET Core
-
-**Web:** HTML5, CSS3, JavaScript, Web Frontend Frameworkleri, CSS Frameworkleri
-
-**Web Platform:** nginx, apache2, IIS
+**Web:** HTML5, CSS3, JavaScript, Web Frontend Frameworkleri (React v.s.), CSS Frameworkleri
 
 
 ## Sertifikalar ve Sınavlar

@@ -1,4 +1,8 @@
 {
+    "title": "eser.ozvataf.com",
+    "htmlTemplates": {
+        "index.html": "./src/index.html"
+    },
     "staticFiles": [
         "./public/**/*"
     ]

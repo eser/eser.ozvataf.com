@@ -3,7 +3,6 @@ import cacheManager from 'es6-cachemanager/lib/esm';
 const dataSourceUrl = 'https://03x2915wpg.execute-api.eu-west-1.amazonaws.com/default/getMediumPosts';
 
 async function getMediumPostsFetch(): Promise<any> {
-    // console.log('fetch', name);
     const promise: Promise<any> = fetch(dataSourceUrl)
         .then((response) => response.json());
 

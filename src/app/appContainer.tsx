@@ -5,6 +5,7 @@ import LayoutContainer from './layouts/default/layoutContainer';
 import HomeContainer from './pages/home/homeContainer';
 import AboutContainer from './pages/about/aboutContainer';
 import ProjectsContainer from './pages/projects/projectsContainer';
+import AttendencesContainer from './pages/attendences/attendencesContainer';
 import ContactContainer from './pages/contact/contactContainer';
 import NotFoundContainer from './pages/notFound/notFoundContainer';
 
@@ -51,6 +52,7 @@ class AppContainer extends React.Component<AppContainerProps, AppContainerState>
 
                 <Route path="/about/" exact={true} strict={true} render={() => <LayoutContainer><AboutContainer /></LayoutContainer>} />
                 <Route path="/projects/" exact={true} strict={true} render={() => <LayoutContainer><ProjectsContainer /></LayoutContainer>} />
+                <Route path="/attendences/" exact={true} strict={true} render={() => <LayoutContainer><AttendencesContainer /></LayoutContainer>} />
                 <Route path="/contact/" exact={true} strict={true} render={() => <LayoutContainer><ContactContainer /></LayoutContainer>} />
 
                 <Route render={() => <NotFoundContainer />} />

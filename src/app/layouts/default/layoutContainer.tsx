@@ -24,7 +24,7 @@ class LayoutContainer extends React.Component<LayoutContainerProps, LayoutContai
             <React.Fragment>
                 <header id="header">
                     <h1><NavLink exact={true} to="/">Eser Ozvataf</NavLink></h1>
-                    <p>Yazılım Mimarı</p>
+                    <p>Yazılım Düşünür, Planlar, Geliştirir, Konuşur</p>
                     <div id="follow-icons">
                         <a href="http://github.com/eserozvataf"><i className="fa fa-github-square fa-2x"></i></a>
                         <a href="http://twitter.com/eserozvataf"><i className="fa fa-twitter-square fa-2x"></i></a>
@@ -35,6 +35,7 @@ class LayoutContainer extends React.Component<LayoutContainerProps, LayoutContai
                     <h6><NavLink exact={true} to="/">Blog</NavLink></h6>
                     <h6><NavLink to="/about/">Hakkımda</NavLink></h6>
                     <h6><NavLink to="/projects/">Projeler</NavLink></h6>
+                    <h6><NavLink to="/attendences/">Katılımlarım</NavLink></h6>
                     <h6><NavLink to="/contact/">İletişim</NavLink></h6>
                 </header>
                 <main id="content">
