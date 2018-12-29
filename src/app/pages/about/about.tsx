@@ -6,9 +6,17 @@ function About() {
         <ReactMarkdown source={`
 # Hakkında
 
-İsmim Eser Özvataf, devops, yazılım mimarisi, IT süreçleri, takım yönetimi, takım koçluğu, kalite yönetimi ve kullanıcı deneyimi konularıyla ilgilenmekteyim.
+İsmim Eser Özvataf, devops, yazılım mimarisi, IT süreçleri, çevik takım yönetimi eksenli konularla ilgilenmekteyim.
 
-Şu anda Setur'da Süreç Lideri olarak çalışmaktayım. Zamanım el verdiğince cloud üzerinde çalışan yüksek lisans tez projem ve açık kaynak projelerim üzerinde de efor sarf ediyorum.
+Setur'da Süreç Lideri olarak çalışmamın yanısıra, özel zamanımda yazılım sektörü ve yazılım geliştirme ekseninde üretken olmaya çalışıyorum.
+
+Bunlara örnek vermek gerekirse;
+- [Twitch](https://www.twitch.tv/laroux) üzerinden yazılımla ilgili yayınlar hazırlamaya çalışıyorum.
+- Açık kaynaklı projeler oluşturmak veya mevcut projelere katkıda bulunmaya çalışıyorum.
+- [acikkaynak.info](https://acikkaynak.info)'nun bakımıyla ilgileniyorum.
+- Blockzincir üzerine lisansüstü akademik çalışmalarımı devam ettiriyorum.
+- Davet geldiği sürece yurtiçi konferanslarda konuşmacı olarak yer alıyorum.
+- [Medium](https://medium.com/@eserozvataf) üzerinde blog yazıları paylaşıyorum.
 
 
 ## Geçmiş

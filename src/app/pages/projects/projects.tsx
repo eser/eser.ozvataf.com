@@ -8,13 +8,17 @@ function Projects() {
 
 Çalışmalarıma [Patreon](http://patreon.com/eserozvataf) üzerinden destek verebilirsiniz.
 
+## Yayınlar
+- [Twitch](https://twitch.com/laroux) (twitch.com/laroux)
+- [YouTube](https://www.youtube.com/channel/UCS3eVZDirUNTFrteoJsLP4g) (yayın tekrarları için)
+
 ## Sosyal
 - [GitHub Profilim](https://github.com/eserozvataf) (github.com/eserozvataf)
 - [Açık Kaynak Komunitesi](https://acikkaynak.info) (acikkaynak.info)
 
 ## Başlattığım Açık Kaynak Projeler
 
-[dart](https://github.com/eserozvataf/dart),
+[darty](https://github.com/eserozvataf/darty),
 [Tassle](https://github.com/eserozvataf/tassle),
 [jsmake](https://github.com/eserozvataf/jsmake),
 [jsmake-libraries](https://github.com/eserozvataf/jsmake-libraries),

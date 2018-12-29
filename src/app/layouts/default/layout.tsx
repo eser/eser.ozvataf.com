@@ -17,9 +17,11 @@ function Layout(props) {
                 <h1><NavLink exact={true} to="/">Eser Ozvataf</NavLink></h1>
                 <p>Yazılım Düşünür, Planlar, Geliştirir, Konuşur</p>
                 <div className={layoutStyles.followIcons}>
-                    <a href="http://github.com/eserozvataf"><i className={`${fontAwesomeStyles.fa} ${fontAwesomeStyles.faGithubSquare} ${fontAwesomeStyles.fa2X}`}></i></a>
-                    <a href="http://twitter.com/eserozvataf"><i className={`${fontAwesomeStyles.fa} ${fontAwesomeStyles.faTwitterSquare} ${fontAwesomeStyles.fa2X}`}></i></a>
-                    <a href="http://linkedin.com/in/eserozvataf"><i className={`${fontAwesomeStyles.fa} ${fontAwesomeStyles.faLinkedinSquare} ${fontAwesomeStyles.fa2X}`}></i></a>
+                    <a href="https://twitch.tv/laroux"><i className={`${fontAwesomeStyles.fa} ${fontAwesomeStyles.faTwitch} ${fontAwesomeStyles.fa2X}`}></i></a>
+                    <a href="https://www.youtube.com/channel/UCS3eVZDirUNTFrteoJsLP4g"><i className={`${fontAwesomeStyles.fa} ${fontAwesomeStyles.faYoutubeSquare} ${fontAwesomeStyles.fa2X}`}></i></a>
+                    <a href="https://github.com/eserozvataf"><i className={`${fontAwesomeStyles.fa} ${fontAwesomeStyles.faGithubSquare} ${fontAwesomeStyles.fa2X}`}></i></a>
+                    <a href="https://twitter.com/eserozvataf"><i className={`${fontAwesomeStyles.fa} ${fontAwesomeStyles.faTwitterSquare} ${fontAwesomeStyles.fa2X}`}></i></a>
+                    <a href="https://linkedin.com/in/eserozvataf"><i className={`${fontAwesomeStyles.fa} ${fontAwesomeStyles.faLinkedinSquare} ${fontAwesomeStyles.fa2X}`}></i></a>
                     <a href="mailto:eser@ozvataf.com"><i className={`${fontAwesomeStyles.fa} ${fontAwesomeStyles.faEnvelopeSquare} ${fontAwesomeStyles.fa2X}`}></i></a>
                 </div>
 
