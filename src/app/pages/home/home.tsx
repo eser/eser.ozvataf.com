@@ -2,21 +2,25 @@ import React, { useEffect, useState, useMemo } from 'react';
 
 import Conditional from '../shared/conditional';
 import Loading from '../shared/loading';
-import Error from '../shared/error';
+import ErrorComponent from '../shared/error';
 
 import layoutStyles from '../../layouts/default/assets/styles.scss';
 
 const dataSourceUrl = 'https://03x2915wpg.execute-api.eu-west-1.amazonaws.com/default/getMediumPosts';
 
 async function getMediumPosts() {
-    const response = await fetch(dataSourceUrl);
-    const result = await response.json();
+    try {
+        const response = await fetch(dataSourceUrl);
+        const result = await response.json();
 
-    const posts = Object.keys(result.payload.references.Post).map(
-        x => result.payload.references.Post[x]
-    );
+        const posts = Object.keys(result.payload.references.Post).map(
+            x => result.payload.references.Post[x]
+        );
 
-    return posts;
+        return posts;
+    } catch (error) {
+        throw new Error("Medium gönderileri çekilemedi");
+    }
 }
 
 function Home() {
@@ -31,7 +35,7 @@ function Home() {
 
     if (error !== null) {
         return (
-            <Error message={error} />
+            <ErrorComponent message={error.message} />
         );
     }
 
