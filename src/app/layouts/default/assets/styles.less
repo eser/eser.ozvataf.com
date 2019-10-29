@@ -9,6 +9,7 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #444;
+    line-height: 1.8em;
 }
 
 body {
@@ -17,11 +18,13 @@ body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Bree Serif', serif !important;
+    font-family: 'Bree Serif', serif;
     font-weight: 400;
+    color: inherit;
 
     a {
-        font-weight: 400
+        font-weight: 400;
+        color: inherit;
     }
 }
 
@@ -30,6 +33,14 @@ a {
     font-weight: 700;
     text-decoration: none;
     color: #566998; /* Change Link Color */
+}
+
+p {
+    line-height: inherit;
+}
+
+ul.ui.list li, ol.ui.list li, .ui.list > .item, .ui.list .list > .item {
+    line-height: inherit;
 }
 
 /* Blocks */
@@ -57,7 +68,6 @@ a {
 .page-footer {
     padding: 1em 0em 2.5em 0em;
     font-size: 0.8em;
-    line-height: 1.5em;
     color: #888;
 }
 
@@ -66,10 +76,6 @@ a {
     font-size: 1.9em;
     margin-top: 0.8em;
     margin-bottom: 0.6em;
-}
-
-.page-header h1 a {
-    color: #444;
 }
 
 .follow-icons {

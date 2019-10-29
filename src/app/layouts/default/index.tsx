@@ -2,8 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitch, faYoutubeSquare, faGithubSquare, faTwitterSquare, faMedium, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
+import { faTwitch, faYoutubeSquare, faGithubSquare, faTwitterSquare, faMedium, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import './assets/fonts/bree-serif.scss';
 import './assets/fonts/open-sans.scss';
@@ -20,13 +20,13 @@ function Layout(props) {
                 <h1><NavLink exact={true} to="/">Eser Ozvataf</NavLink></h1>
                 <p>Yazılım Düşünür, Planlar, Geliştirir, Konuşur</p>
                 <div className={layoutStyles.followIcons}>
-                    <a href="https://twitch.tv/laroux"><FontAwesomeIcon size="2x" icon={faTwitch} /></a>
-                    <a href="https://www.youtube.com/channel/UCS3eVZDirUNTFrteoJsLP4g"><FontAwesomeIcon size="2x" icon={faYoutubeSquare} /></a>
-                    <a href="https://github.com/eserozvataf"><FontAwesomeIcon size="2x" icon={faGithubSquare} /></a>
-                    <a href="https://twitter.com/eserozvataf"><FontAwesomeIcon size="2x" icon={faTwitterSquare} /></a>
-                    <a href="https://medium.com/@eserozvataf"><FontAwesomeIcon size="2x" icon={faMedium} /></a>
-                    <a href="https://linkedin.com/in/eserozvataf"><FontAwesomeIcon size="2x" icon={faLinkedin} /></a>
-                    <a href="mailto:eser@ozvataf.com"><FontAwesomeIcon size="2x" icon={faEnvelopeSquare} /></a>
+                    <a aria-label="Twitch" href="https://twitch.tv/laroux"><FontAwesomeIcon size="2x" icon={faTwitch} /></a>
+                    <a aria-label="Youtube" href="https://www.youtube.com/c/EserOzvataf"><FontAwesomeIcon size="2x" icon={faYoutubeSquare} /></a>
+                    <a aria-label="GitHub" href="https://github.com/eserozvataf"><FontAwesomeIcon size="2x" icon={faGithubSquare} /></a>
+                    <a aria-label="Twitter" href="https://twitter.com/eserozvataf"><FontAwesomeIcon size="2x" icon={faTwitterSquare} /></a>
+                    <a aria-label="Medium" href="https://medium.com/@eserozvataf"><FontAwesomeIcon size="2x" icon={faMedium} /></a>
+                    <a aria-label="LinkedIn" href="https://linkedin.com/in/eserozvataf"><FontAwesomeIcon size="2x" icon={faLinkedin} /></a>
+                    <a aria-label="E-Mail" href="mailto:eser@ozvataf.com"><FontAwesomeIcon size="2x" icon={faEnvelopeSquare} /></a>
                 </div>
 
                 <h2><NavLink exact={true} to="/">Giriş</NavLink></h2>
