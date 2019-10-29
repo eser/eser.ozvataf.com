@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Conditional(props) {
     if (!props.test) {
         return null;

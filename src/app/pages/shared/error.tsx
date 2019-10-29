@@ -2,7 +2,10 @@ import React from 'react';
 
 function Error(props) {
     return (
-        <div>Hata: {props.message}</div>
+        <div>
+Hata:
+            {props.message}
+        </div>
     );
 }
 

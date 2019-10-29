@@ -11,7 +11,8 @@ http://telegram.me/esero
 
 E-mail:
 [eser@ozvataf.com](mailto:eser@ozvataf.com)
-`} />
+`}
+        />
     );
 }
 
