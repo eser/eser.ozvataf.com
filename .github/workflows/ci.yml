@@ -51,17 +51,16 @@ jobs:
     #     path: dist/
 
     - name: Login to Docker Hub
-      uses: actions-hub/docker/login@master
+      run: docker login --username=$DOCKER_USERNAME --password=$DOCKER_PASSWORD docker.io
       env:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
-    - name: Login to Heroku
-      uses: actions/heroku@master
+    - name: Login to Heroku Container Registry
+      run: docker login --username=$DOCKER_USERNAME --password=$DOCKER_PASSWORD registry.heroku.com
       env:
-        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-      with:
-        args: container:login
+        DOCKER_USERNAME: _
+        DOCKER_PASSWORD: ${{ secrets.HEROKU_API_KEY }}
 
     - name: Build container
       run: docker build -t eserozvataf/eser.ozvataf.com:latest -t registry.heroku.com/eserozvatafcom/web:latest .
