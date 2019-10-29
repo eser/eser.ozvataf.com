@@ -32,24 +32,49 @@ jobs:
     steps:
     - name: Checkout from repository
       uses: actions/checkout@master
+
     - name: Setup Node.js
       uses: actions/setup-node@master
       with:
         node-version: 12.x
+
     - name: Install dependencies
       run: yarn install --frozen-lockfile --non-interactive
+
     - name: Module bundling
       run: yarn run bundle:prod
+
     # - name: Upload artifacts
     #   uses: actions/upload-artifact@master
     #   with:
     #     name: latest
     #     path: dist/
-    - name: Container Publish
-      uses: zenato/docker-action@master
+
+    - name: Login to Docker Hub
+      uses: actions-hub/docker/login@master
+      env:
+        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+
+    - name: Login to Heroku
+      uses: actions/heroku@master
+      env:
+        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
       with:
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: eserozvataf/eser.ozvataf.com
-        # registry: docker.pkg.github.com
-        tag: latest
+        args: container:login
+
+    - name: Build container
+      run: docker build -t eserozvataf/eser.ozvataf.com:latest -t registry.heroku.com/eserozvatafcom/web:latest .
+
+    - name: Push to Docker Hub
+      run: docker push eserozvataf/eser.ozvataf.com:latest
+
+    - name: Push to Heroku
+      run: docker push registry.heroku.com/eserozvatafcom/web:latest
+
+    - name: Heroku Release
+      uses: actions/heroku@master
+      env:
+        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+      with:
+        args: container:release web
