@@ -35,6 +35,10 @@ ve [Diğerleri](https://github.com/eserozvataf)...
 
 ## Yer Aldığım Bazı Projeler
 
+2019
+
+- Kurumsal DevOps altyapısı ve Agile dönüşüm - *Setur*
+
 2018
 
 - Kurumsal DevOps altyapısı ve Agile dönüşüm - *KoçSistem*
@@ -113,7 +117,8 @@ ve [Diğerleri](https://github.com/eserozvataf)...
 - Otolab Online Araç Bakım Randevu Sistemi - *Freelance*
 - Sistech.com Teknoloji/Yazılım Haber Sitesi - *Sis*
 - Turkishqf.org Oyun Haber Sitesi
-`} />
+`}
+        />
     );
 }
 

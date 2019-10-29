@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitch, faYoutubeSquare, faGithubSquare, faTwitterSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faTwitch, faYoutubeSquare, faGithubSquare, faTwitterSquare, faMedium, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 
 import './assets/fonts/bree-serif.scss';
@@ -24,11 +24,12 @@ function Layout(props) {
                     <a href="https://www.youtube.com/channel/UCS3eVZDirUNTFrteoJsLP4g"><FontAwesomeIcon size="2x" icon={faYoutubeSquare} /></a>
                     <a href="https://github.com/eserozvataf"><FontAwesomeIcon size="2x" icon={faGithubSquare} /></a>
                     <a href="https://twitter.com/eserozvataf"><FontAwesomeIcon size="2x" icon={faTwitterSquare} /></a>
+                    <a href="https://medium.com/@eserozvataf"><FontAwesomeIcon size="2x" icon={faMedium} /></a>
                     <a href="https://linkedin.com/in/eserozvataf"><FontAwesomeIcon size="2x" icon={faLinkedin} /></a>
                     <a href="mailto:eser@ozvataf.com"><FontAwesomeIcon size="2x" icon={faEnvelopeSquare} /></a>
                 </div>
 
-                <h2><NavLink exact={true} to="/">Blog</NavLink></h2>
+                <h2><NavLink exact={true} to="/">Giriş</NavLink></h2>
                 <h2><NavLink to="/about/">Hakkımda</NavLink></h2>
                 <h2><NavLink to="/projects/">Projeler</NavLink></h2>
                 <h2><NavLink to="/attendences/">Katılımlarım</NavLink></h2>

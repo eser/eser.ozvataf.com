@@ -4,13 +4,14 @@
   "keywords": [
     "typescript",
     "react",
+    "hooks",
     "spa",
     "boilerplate",
     "starter"
   ],
   "version": "0.10.1",
-  "homepage": "http://eser.ozvataf.com.s3-website-eu-west-1.amazonaws.com",
-  "author": "Eser Ozvataf <eser@ozvataf.com>",
+  "homepage": "https://eser.ozvataf.com/",
+  "author": "Eser Ozvataf <eser@ozvataf.com> (https://twitter.com/eser)",
   "contributors": [
     {
       "name": "Eser Ozvataf",
@@ -34,32 +35,36 @@
     "cleanup": "rm -rf yarn.lock node_modules/ dist/",
     "start": "darty start",
     "dev": "darty dev",
+    "extract": "darty extract",
     "lint": "darty lint",
+    "lint:fix": "darty lint:fix",
     "test": "darty test",
     "test:coverage": "darty test:coverage",
     "bundle": "darty bundle",
     "bundle:prod": "darty bundle:prod",
-    "containerize": "darty containerize",
-    "aws:copy": "aws s3 sync ./dist s3://eser.ozvataf.com",
-    "aws:open": "start http://eser.ozvataf.com.s3-website-eu-west-1.amazonaws.com"
+    "containerize": "darty containerize"
   },
   "dependencies": {
-    "darty": "^0.51.10"
+    "darty": "^0.51.14"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
-    "@fortawesome/react-fontawesome": "^0.1.6",
+    "@fortawesome/react-fontawesome": "^0.1.7",
     "@types/enzyme": "^3.10.3",
-    "@types/jest": "^24.0.18",
-    "@types/react": "^16.9.5",
-    "@types/react-router": "^5.1.1",
+    "@types/jest": "^24.0.20",
+    "@types/react": "^16.9.11",
+    "@types/react-router": "^5.1.2",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
+    "eslint-config-eser-react": "^2.1.8",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
     "history": "^4.10.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "react-markdown": "^4.2.2",
     "react-native-web": "^0.11.7",
     "react-router": "^5.1.2",
