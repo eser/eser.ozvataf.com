@@ -4,9 +4,14 @@ Thumbs.db
 
 # Editor metadata
 .vscode/
+# Jetbrains IDE's metadata
+.idea/
 
 # npm
 node_modules/
+
+# test coverage data
+coverage/
 
 # API keys and secrets
 .env

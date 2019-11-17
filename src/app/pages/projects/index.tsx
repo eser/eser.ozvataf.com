@@ -14,7 +14,9 @@ function Projects() {
 
 ## Sosyal
 - [GitHub Profilim](https://github.com/eserozvataf) (github.com/eserozvataf)
-- [Açık Kaynak Komunitesi](https://acikkaynak.info) (acikkaynak.info)
+- [Açık-Kaynak.org](https://acik-kaynak.org) (acik-kaynak.org)
+- [Dev İzmir Organizasyon](https://kommunity.com/devizmir) (kommunity.com/devizmir)
+- [JSTANBUL Organizasyon](https://kommunity.com/jstanbul) (kommunity.com/jstanbul)
 
 ## Başlattığım Açık Kaynak Projeler
 

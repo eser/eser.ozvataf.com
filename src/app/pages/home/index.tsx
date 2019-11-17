@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { Container, List, Grid, Segment, Label, Button, Responsive } from 'semantic-ui-react';
+import { Container, List, Grid, Segment, Label, Header, Responsive } from 'semantic-ui-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAddressCard, faUsers } from '@fortawesome/free-solid-svg-icons';
-import { faMediumM, faTelegram } from '@fortawesome/free-brands-svg-icons';
+import { faAddressCard, faChalkboardTeacher } from '@fortawesome/free-solid-svg-icons';
+import { faMediumM, faYoutube, faTwitch, faGithub, faSpeakerDeck, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import styles from './styles.less';
 
@@ -12,7 +12,7 @@ function Home() {
         <>
             <Container>
                 <Responsive minWidth={Responsive.onlyComputer.minWidth}>
-                    <h1 className={styles.homeHeader}>Eser Ozvataf</h1>
+                    <Header as="h1" className={styles.homeHeader}>Eser Ozvataf</Header>
                 </Responsive>
 
                 <Grid>
@@ -20,28 +20,64 @@ function Home() {
                         <Segment>
                             <Label ribbon>
                                 <FontAwesomeIcon icon={faAddressCard} />
-                                { ' ' }
-                                Özet
+                                {' '}
+                                Hakkında
                             </Label>
                             <Container className={styles.boxed}>
                                 Merhaba! İsmim Eser Özvataf.
-
                                 <br />
                                 <br />
+                                Yazılım geliştirme yolculuğuma programcı titriyle başladım.
+                                Geride bıraktığım 18 yılda birçok geçiş dönemi yaşadım ve
+                                deneyimler biriktirdim.
+                                <br />
+                                <br />
+                                Bugün "Yazılım Ürünleri Geliştirme ve DevOps Süreçleri"nden
+                                sorumlu olarak Setur'da görev almaktayım. Kültürel dönüşüm,
+                                organizasyon çevikliği ve çevik liderlik eksenli konularda
+                                fayda sağlamaya çalışıyorum.
+                                <br />
+                                <br />
+                                Kurumsaldaki hayatımın yanısıra çeşitli platformlarda yazılım
+                                sektörü ve yazılım geliştirme ekseninde içerik üretiyor ve
+                                konuşmalar yapıyorum.
+                            </Container>
+                        </Segment>
+                    </Grid.Column>
 
-                                <a href="https://twitch.tv/laroux">Twitch</a>
-                                { ' ' }
+                    <Grid.Column mobile={16} tablet={16} computer={8}>
+                        <Segment>
+                            <Label ribbon="right">
+                                İçerik Üretimi ve Konuşmalar
+                                {' '}
+                                <FontAwesomeIcon icon={faChalkboardTeacher} />
+                            </Label>
+                            <Container className={`${styles.boxed} ${styles.linksWithIcons}`}>
+                                <a href="https://twitch.tv/laroux">
+                                    <FontAwesomeIcon icon={faTwitch} />
+                                    {' '}
+                                    Twitch
+                                </a>
+                                {' '}
                                 üzerinde yazılımla ilgili yayınlar hazırlıyorum, bunların tekrarları
-                                { ' ' }
-                                <a href="https://www.youtube.com/channel/UCS3eVZDirUNTFrteoJsLP4g">YouTube</a>
+                                {' '}
+                                <a href="https://www.youtube.com/channel/UCS3eVZDirUNTFrteoJsLP4g">
+                                    <FontAwesomeIcon icon={faYoutube} />
+                                    {' '}
+                                    YouTube
+                                </a>
                                 'da bulunabiliyor.
-                                { ' ' }
+                                {' '}
 
                                 <br />
                                 <br />
 
-                                <a href="https://github.com/eserozvataf">GitHub</a>
-                                { ' ' }
+                                <a href="https://github.com/eserozvataf">
+                                    <FontAwesomeIcon icon={faGithub} />
+                                    {' '}
+                                    GitHub
+                                </a>
+                                {' '}
                                 üzerinde açık kaynaklı projeler oluşturmaya (160'a yakın kendi
                                 repository'm vardı en son) veya mevcut projelere katkıda bulunmaya
                                 çalışıyorum.
@@ -51,31 +87,43 @@ function Home() {
 
                                 Davet geldiği sürece yurtiçi konferanslarda konuşmacı olarak yer
                                 alıyorum. Bu konuşmalara ait sunumları
-                                { ' ' }
-                                <a href="https://speakerdeck.com/eser">SpeakerDeck</a>
+                                {' '}
+                                <a href="https://speakerdeck.com/eser">
+                                    <FontAwesomeIcon icon={faSpeakerDeck} />
+                                    {' '}
+                                    SpeakerDeck
+                                </a>
                                 'e yüklüyorum.
 
                                 <br />
                                 <br />
 
                                 Ayrıca
-                                { ' ' }
-                                <a href="https://medium.com/@eserozvataf">Medium</a>
-                                { ' ' }
+                                {' '}
+                                <a href="https://medium.com/@eserozvataf">
+                                    <FontAwesomeIcon icon={faMedium} />
+                                    {' '}
+                                    Medium
+                                </a>
+                                {' '}
                                 üzerinde uzun uzun blog yazıları ile,
-                                { ' ' }
-                                <a href="https://twitter.com/eserozvataf">Twitter</a>
-                                { ' ' }
+                                {' '}
+                                <a href="https://twitter.com/eserozvataf">
+                                    <FontAwesomeIcon icon={faTwitter} />
+                                    {' '}
+                                    Twitter
+                                </a>
+                                {' '}
                                 üzerinde ise tweetlerle görüşlerimi paylaşıyorum.
                             </Container>
                         </Segment>
                     </Grid.Column>
 
-                    <Grid.Column mobile={16} tablet={16} computer={8}>
+                    <Grid.Column width={16}>
                         <Segment>
-                            <Label ribbon="right" as="a" href="https://medium.com/@eserozvataf">
+                            <Label ribbon as="a" href="https://medium.com/@eserozvataf">
                                 <FontAwesomeIcon icon={faMediumM} />
-                                { ' ' }
+                                {' '}
                                 Blog Yazılarım
                             </Label>
                             <Container className={styles.boxed}>
@@ -97,31 +145,6 @@ function Home() {
                                     <List.Item href="https://medium.com/@eserozvataf/azer-ko%C3%A7ulu-kik-left-pad-ve-npm-ed7c3098ecfb">Azer Koçulu, kik, left-pad ve NPM</List.Item>
                                     <List.Item href="https://medium.com/@eserozvataf/javascriptin-back-end-gelece%C4%9Fi-9443114b3c65">JavaScript’in back-end geleceği</List.Item>
                                 </List>
-                            </Container>
-
-                            <Label ribbon="right">
-                                <FontAwesomeIcon icon={faUsers} />
-                                { ' ' }
-                                Komuniteler
-                            </Label>
-                            <Container className={styles.boxed}>
-                                <Button as="a" basic size="medium" href="https://t.me/acikkaynak">
-                                    <FontAwesomeIcon icon={faTelegram} />
-                                    { ' ' }
-                                    açık kaynak
-                                </Button>
-
-                                <Button as="a" basic size="medium" href="https://t.me/devizmir">
-                                    <FontAwesomeIcon icon={faTelegram} />
-                                    { ' ' }
-                                    Dev İzmir
-                                </Button>
-
-                                <Button as="a" basic size="medium" href="https://t.me/jstanbulGroup">
-                                    <FontAwesomeIcon icon={faTelegram} />
-                                    { ' ' }
-                                    JSTANBUL
-                                </Button>
                             </Container>
                         </Segment>
                     </Grid.Column>

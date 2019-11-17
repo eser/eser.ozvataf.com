@@ -1,10 +1,22 @@
-.home-header {
-    font-size: 3em !important;
-    font-weight: normal !important;
-    margin-top: 1.2em !important;
-    margin-bottom: 0.8em !important;
+.ui.header.home-header {
+    font-size: 3em;
+    font-weight: normal;
+
+    &:first-child {
+        margin-top: 0.6em;
+    }
+
+    &:last-child {
+        margin-bottom: 0.6em;
+    }
 }
 
 .boxed {
     margin: 1em;
+}
+
+.links-with-icons {
+    a {
+        white-space: nowrap;
+    }
 }

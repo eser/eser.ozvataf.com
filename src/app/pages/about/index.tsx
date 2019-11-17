@@ -6,12 +6,19 @@ function About() {
         <ReactMarkdown source={`
 # Hakkında
 
-İsmim Eser Özvataf, DevOps, IT süreçleri, organizasyon çevikliği, ürün ve proje yönetimi ve kültürel dönüşüm eksenli konularla ilgilenmekteyim. Setur'daki görevim yanısıra özel zamanlarımda da yazılım sektörü ve yazılım geliştirme ekseninde üretken olmaya çalışıyorum.
+İsmim Eser Özvataf, yazılım geliştirme yolculuğuma programcı titriyle başladım.
+Geride bıraktığım 18 yılda birçok geçiş dönemi yaşadım ve deneyimler biriktirdim.
+
+Bugün "Yazılım Ürünleri Geliştirme ve DevOps Süreçleri"nden sorumlu olarak Setur'da görev almaktayım.
+Kültürel dönüşüm, organizasyon çevikliği ve çevik liderlik eksenli konularda fayda sağlamaya çalışıyorum.
+
+Kurumsaldaki hayatımın yanısıra çeşitli platformlarda yazılım sektörü ve yazılım geliştirme ekseninde
+içerik üretiyor ve konuşmalar yapıyorum.
 
 Bunlara örnek vermek gerekirse;
 - [Twitch](https://www.twitch.tv/laroux) üzerinden yazılımla ilgili yayınlar hazırlamaya çalışıyorum.
 - [GitHub üzerinde](https://github.com/eserozvataf) açık kaynaklı projeler oluşturmaya (160'a yakın kendi repository'm vardı en son) veya mevcut projelere katkıda bulunmaya çalışıyorum.
-- [acikkaynak.info](https://acikkaynak.info)'nun bakımıyla ilgileniyorum.
+- [acik-kaynak.org](https://acik-kaynak.org)'nun bakımıyla ilgileniyorum.
 - Blockzincir üzerine lisansüstü akademik çalışmalar yaparak mezun oldum, ancak tez projeme devam etmeyi istiyorum.
 - Davet geldiği sürece yurtiçi konferanslarda [konuşmacı olarak](https://speakerdeck.com/eser) yer alıyorum.
 - [Medium](https://medium.com/@eserozvataf) üzerinde blog yazıları paylaşıyorum.
