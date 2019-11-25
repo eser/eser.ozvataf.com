@@ -4,9 +4,13 @@ import ReactMarkdown from 'react-markdown';
 function Attendences() {
     return (
         <ReactMarkdown source={`
-# Katıldığım Etkinlikler
+# Katılımlarım
 
-## Konuşmalar
+## Konferans/Meetup Konuşmalarım
+
+- ### GDG DevFest İzmir - 23 Kasım 2019
+  [Sunum: Yeni Başlayanlar icin Fonksiyonlar(), Yeniden Başlamak için Fonksiyonlar()](https://speakerdeck.com/eser/yeni-baslayanlar-icin-fonksiyonlar-yeniden-baslamak-icin-fonksiyonlar)
+
 
 - ### Teknolot - 23 Ekim 2019
   [Sunum: GitHub Actions](https://speakerdeck.com/eser/github-actions)

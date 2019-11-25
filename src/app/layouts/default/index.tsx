@@ -26,14 +26,15 @@ function Layout(props) {
                     <a aria-label="Twitter" href="https://twitter.com/eserozvataf"><FontAwesomeIcon size="2x" icon={faTwitterSquare} /></a>
                     <a aria-label="Medium" href="https://medium.com/@eserozvataf"><FontAwesomeIcon size="2x" icon={faMedium} /></a>
                     <a aria-label="LinkedIn" href="https://linkedin.com/in/eserozvataf"><FontAwesomeIcon size="2x" icon={faLinkedin} /></a>
+                    {/* <a aria-label="Telegram" href="https://telegram.me/esero"><FontAwesomeIcon size="2x" icon={faTelegramPlane} /></a> */}
                     <a aria-label="E-Mail" href="mailto:eser@ozvataf.com"><FontAwesomeIcon size="2x" icon={faEnvelopeSquare} /></a>
                 </div>
 
                 <h2><NavLink exact={true} to="/">Giriş</NavLink></h2>
                 <h2><NavLink to="/about/">Hakkımda</NavLink></h2>
-                <h2><NavLink to="/projects/">Projeler</NavLink></h2>
+                <h2><NavLink to="/projects/">Projelerim</NavLink></h2>
                 <h2><NavLink to="/attendences/">Katılımlarım</NavLink></h2>
-                <h2><NavLink to="/contact/">İletişim</NavLink></h2>
+                <h2><NavLink to="/cv/">CV</NavLink></h2>
             </header>
             <main className={layoutStyles.pageContent}>
                 {props.children}

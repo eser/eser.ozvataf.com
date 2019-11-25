@@ -61293,6 +61293,11 @@ body {
 body {
   padding: 2em 2.5em 1em 20em;
 }
+@media print {
+  body {
+    padding: 0;
+  }
+}
 /* Headings */
 h1,
 h2,
@@ -61345,6 +61350,11 @@ ol.ui.list li,
   margin-top: 0.9em;
   margin-bottom: 0.9em;
   font-size: 1.2em;
+}
+@media print {
+  .page-header {
+    display: none;
+  }
 }
 .page-content {
   display: block;

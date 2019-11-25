@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 function Projects() {
     return (
         <ReactMarkdown source={`
-# Projeler
+# Projelerim
 
 Çalışmalarıma [Patreon](http://patreon.com/eserozvataf) üzerinden destek verebilirsiniz.
 
@@ -35,7 +35,7 @@ function Projects() {
 
 ve [Diğerleri](https://github.com/eserozvataf)...
 
-## Yer Aldığım Bazı Projeler
+## Geçmişte Yer Aldığım Bazı Projeler
 
 2019
 

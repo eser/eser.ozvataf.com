@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 function About() {
     return (
         <ReactMarkdown source={`
-# Hakkında
+# Hakkımda
 
 İsmim Eser Özvataf, yazılım geliştirme yolculuğuma programcı titriyle başladım.
 Geride bıraktığım 18 yılda birçok geçiş dönemi yaşadım ve deneyimler biriktirdim.
@@ -18,9 +18,10 @@ içerik üretiyor ve konuşmalar yapıyorum.
 Bunlara örnek vermek gerekirse;
 - [Twitch](https://www.twitch.tv/laroux) üzerinden yazılımla ilgili yayınlar hazırlamaya çalışıyorum.
 - [GitHub üzerinde](https://github.com/eserozvataf) açık kaynaklı projeler oluşturmaya (160'a yakın kendi repository'm vardı en son) veya mevcut projelere katkıda bulunmaya çalışıyorum.
-- [acik-kaynak.org](https://acik-kaynak.org)'nun bakımıyla ilgileniyorum.
-- Blockzincir üzerine lisansüstü akademik çalışmalar yaparak mezun oldum, ancak tez projeme devam etmeyi istiyorum.
+- [Açık-Kaynak.org](https://acik-kaynak.org)'un kurucusuyum ve bakımıyla ilgileniyorum.
+- Lisansüstü eğitimimi blockchain ve e-learning üzerine bir tez teslim ederek tamamladım, tezimi ilk fırsatta proje haline getirmek istiyorum.
 - Davet geldiği sürece yurtiçi konferanslarda [konuşmacı olarak](https://speakerdeck.com/eser) yer alıyorum.
+- [JSTANBUL](https://kommunity.com/jstanbul) ve [Dev İzmir](https://kommunity.com/devizmir) kullanıcı gruplarında organizatörlük görevi üstleniyorum.
 - [Medium](https://medium.com/@eserozvataf) üzerinde blog yazıları paylaşıyorum.
 
 
@@ -34,7 +35,7 @@ Eskişehir'den İzmir'e yerleşmiş o dönem pek çevresi olmayan bir çocukken 
 
 Askerlik görevimi tamamladıktan sonra 2008'de Turkcell Çözüm Ortakları arasında bulunan CMFNET/Mobilpark firmasında deneyimli Full Stack (Tam Donanımlı) Yazılım Geliştirici ve Takım Liderliği görevini üstlendim.
 
-2011 yılı itibariyle tekrar akademiye dönerek Doğu Akdeniz Üniversitesi çatısı altında önce Information Technology lisansı, ardından Information and Communications in Education yüksek lisansı programlarını tamamladım.
+2011 yılı itibariyle tekrar akademiye dönerek Doğu Akdeniz Üniversitesi çatısı altında önce Information Technology lisansı, ardından Information and Communications in Education tezli yüksek lisansı programlarını tamamladım.
 
 Eğitim hayatım boyunca açık kaynaklı projelerin oluşturulmasına ve geliştirilmesine elimden geldiğince destek olmaya çalıştım.
 
@@ -64,48 +65,6 @@ Bugün ise Setur'da Süreç Lideri olarak çalışmaktayım.
 - Sayısalcıdan çok sözelci olduğumu düşünürüm, ALES'i yalnızca sözel yaparak geçmiştim.
 - Türkiye ve dünya politika tarihi ile ilgili oldukça fazla okuma yaparım.
 - Dire Straits, The Smiths, Pink Floyd, Judas Priest ve Iron Maiden müzik zevkimde ciddi bir ağırlık noktası oluşturuyor.
-
-
-## Sertifikalar ve Sınavlar
-
-- **KOSGEB** Uygulamalı Girişimcilik Eğitimi - 04.2016
-
-
-- **edx** Berkeley (University of California) - 08.2013
-
-  CS-169.1x: Software as a Service
-
-  https://verify.edx.org/cert/da723362e8b74500992fc4bc84e5324c
-
-
-- **edx** The Massachusetts Institute of Technology - 06.2013
-
-  6.00x: Introduction to Computer Science and Programming
-
-  https://verify.edx.org/cert/4b90bae7e00a4d94b9793c93339334ba
-
-
-- **OSYM** Akademik Personel ve Lisansüstü Eğitimi Giriş Sınavı - 05.2012
-
-
-- **UKLA** General English (EFL) - 06.2011
-
-  Upper-Intermediate (Council of Europe B2)
-
-
-- **Turkcell** Turkcell Akademi - 06.2011
-
-  Proje Yönetimi Metodolojisi ve Uygulamaları
-
-
-- **Microsoft** Microsoft Certified Technology Specialist - 05.2010
-
-  MSTSC: Microsoft Windows Mobile Application Development
-
-
-- **Microsoft** Microsoft Certified Technology Specialist - 05.2010
-
-  MSTSC: Microsoft Windows Mobile Designing, Implementing and Managing
 `}
         />
     );

@@ -6,7 +6,7 @@ import Home from './pages/home/index';
 import About from './pages/about/index';
 import Projects from './pages/projects/index';
 import Attendences from './pages/attendences/index';
-import Contact from './pages/contact/index';
+import Cv from './pages/cv/index';
 import NotFound from './pages/notFound/index';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
             <Route path="/about/" exact={true} strict={true} render={() => <Layout><About /></Layout>} />
             <Route path="/projects/" exact={true} strict={true} render={() => <Layout><Projects /></Layout>} />
             <Route path="/attendences/" exact={true} strict={true} render={() => <Layout><Attendences /></Layout>} />
-            <Route path="/contact/" exact={true} strict={true} render={() => <Layout><Contact /></Layout>} />
+            <Route path="/cv/" exact={true} strict={true} render={() => <Layout><Cv /></Layout>} />
 
             <Route render={() => <NotFound />} />
         </Switch>
