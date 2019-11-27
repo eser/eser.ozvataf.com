@@ -86,7 +86,7 @@ Haziran 2001 - Ağustos 2002
 ### **Yüksek Lisans - Information and Communication Technologies in Education**
 
 Kurum: Doğu Akdeniz Üniversitesi  
-Ortalama: 3.47/4  
+Ortalama: 3.44/4  
 2013 - 2019
 
 ### **Lisans - Information Technology**
