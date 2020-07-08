@@ -21,7 +21,7 @@ function Layout(props) {
                 <p>Yazılım Düşünür, Planlar, Geliştirir, Konuşur</p>
                 <div className={layoutStyles.followIcons}>
                     <a aria-label="Twitch" href="https://twitch.tv/laroux"><FontAwesomeIcon size="2x" icon={faTwitch} /></a>
-                    <a aria-label="Youtube" href="https://www.youtube.com/c/EserOzvataf"><FontAwesomeIcon size="2x" icon={faYoutubeSquare} /></a>
+                    <a aria-label="Youtube" href="https://youtube.com/EserOzvataf"><FontAwesomeIcon size="2x" icon={faYoutubeSquare} /></a>
                     <a aria-label="GitHub" href="https://github.com/eserozvataf"><FontAwesomeIcon size="2x" icon={faGithubSquare} /></a>
                     <a aria-label="Twitter" href="https://twitter.com/eserozvataf"><FontAwesomeIcon size="2x" icon={faTwitterSquare} /></a>
                     <a aria-label="Medium" href="https://medium.com/@eserozvataf"><FontAwesomeIcon size="2x" icon={faMedium} /></a>
@@ -40,7 +40,7 @@ function Layout(props) {
                 {props.children}
             </main>
             <footer className={layoutStyles.pageFooter}>
-                <section className={layoutStyles.footerMessage}>© 2019 Eser Ozvataf.</section>
+                <section className={layoutStyles.footerMessage}>© 2020 Eser Ozvataf.</section>
             </footer>
         </>
     );

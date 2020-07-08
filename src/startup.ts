@@ -5,7 +5,7 @@ import { StaticRouter, Router } from 'react-router';
 
 import { createBrowserHistory } from 'history';
 
-import App from './app/app';
+import App from './app/app.tsx';
 
 class Startup {
     vars: any;
@@ -22,8 +22,12 @@ class Startup {
     // eslint-disable-next-line class-methods-use-this
     getRoot(): JSX.Element {
         return React.createElement(
-            App,
+            React.StrictMode,
             {},
+            React.createElement(
+                App,
+                {},
+            ),
         );
     }
 

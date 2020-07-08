@@ -15,11 +15,12 @@ function Projects() {
 ## Sosyal
 - [GitHub Profilim](https://github.com/eserozvataf) (github.com/eserozvataf)
 - [Açık-Kaynak.org](https://acik-kaynak.org) (acik-kaynak.org)
-- [Dev İzmir Organizasyon](https://kommunity.com/devizmir) (kommunity.com/devizmir)
 - [JSTANBUL Organizasyon](https://kommunity.com/jstanbul) (kommunity.com/jstanbul)
 
 ## Başlattığım Açık Kaynak Projeler
 
+[hex-functions](https://github.com/eserozvataf/hex-functions),
+[hex-service](https://github.com/eserozvataf/hex-service),
 [darty](https://github.com/eserozvataf/darty),
 [Tassle](https://github.com/eserozvataf/tassle),
 [jsmake](https://github.com/eserozvataf/jsmake),

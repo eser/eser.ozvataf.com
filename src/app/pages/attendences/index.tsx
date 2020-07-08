@@ -8,6 +8,14 @@ function Attendences() {
 
 ## Konferans/Meetup Konuşmalarım
 
+- ### ACM Hacettepe ACS Days - 30 Haziran 2020
+  [Sunum: Node.js, Deno ve JavaScript ile Backend Geliştirmenin Dünü ve Bugünü](https://speakerdeck.com/eser/node-dot-js-deno-ve-javascript-ile-backend-gelistirmenin-dunu-ve-bugunu)
+
+
+- ### AçıkSeminer - 14 Nisan 2020
+  [Sunum: Açık Kaynak 101](https://speakerdeck.com/eser/acik-kaynak-101-acikseminer)
+
+
 - ### GDG DevFest İzmir - 23 Kasım 2019
   [Sunum: Yeni Başlayanlar icin Fonksiyonlar(), Yeniden Başlamak için Fonksiyonlar()](https://speakerdeck.com/eser/yeni-baslayanlar-icin-fonksiyonlar-yeniden-baslamak-icin-fonksiyonlar)
 

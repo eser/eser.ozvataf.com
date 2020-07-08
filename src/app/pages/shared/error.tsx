@@ -3,7 +3,7 @@ import React from 'react';
 function Error(props) {
     return (
         <div>
-Hata:
+            Hata:
             {props.message}
         </div>
     );

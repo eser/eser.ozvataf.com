@@ -32,10 +32,11 @@ function Home() {
                                 deneyimler biriktirdim.
                                 <br />
                                 <br />
-                                Bugün "Yazılım Ürünleri Geliştirme ve DevOps Süreçleri"nden
-                                sorumlu olarak Setur'da görev almaktayım. Kültürel dönüşüm,
-                                organizasyon çevikliği ve çevik liderlik eksenli konularda
-                                fayda sağlamaya çalışıyorum.
+                                Bugün Yazılım Yöneticisi olarak Setur'da görev almaktayım.
+                                Mühendislik yönetimi, kültürel dönüşüm, organizasyon
+                                çevikliği, çevik liderlik, ürün odaklı geliştirme, çözüm
+                                mimarisi, IT süreç yönetimi ve DevOps eksenli konular eksenli
+                                konularda fayda sağlamaya çalışıyorum.
                                 <br />
                                 <br />
                                 Kurumsaldaki hayatımın yanısıra çeşitli platformlarda yazılım
@@ -115,6 +116,8 @@ function Home() {
                                 </a>
                                 {' '}
                                 üzerinde ise tweetlerle görüşlerimi paylaşıyorum.
+                                <br />
+                                <br />
                             </Container>
                         </Segment>
                     </Grid.Column>

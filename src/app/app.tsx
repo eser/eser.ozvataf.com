@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Switch } from 'react-router';
 
-import Layout from './layouts/default/index';
-import Home from './pages/home/index';
-import About from './pages/about/index';
-import Projects from './pages/projects/index';
-import Attendences from './pages/attendences/index';
-import Cv from './pages/cv/index';
-import NotFound from './pages/notFound/index';
+import Layout from './layouts/default/index.tsx';
+import Home from './pages/home/index.tsx';
+import About from './pages/about/index.tsx';
+import Projects from './pages/projects/index.tsx';
+import Attendences from './pages/attendences/index.tsx';
+import Cv from './pages/cv/index.tsx';
+import NotFound from './pages/notFound/index.tsx';
 
 function App() {
     return (
