@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function Loading() {
-    return (
-        <div>Yükleniyor...</div>
-    );
+  return <div>Yükleniyor...</div>;
 }
 
-export {
-    Loading as default,
-};
+export { Loading as default };

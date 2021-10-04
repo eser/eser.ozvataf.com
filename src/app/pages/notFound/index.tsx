@@ -1,15 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function NotFound() {
-    return (
-        <>
-            <h1>Bulunamadı</h1>
+  return (
+    <>
+      <h1>Bulunamadı</h1>
 
-            Gitmek istediğiniz sayfa bulunamadı.
-        </>
-    );
+      Gitmek istediğiniz sayfa bulunamadı.
+    </>
+  );
 }
 
-export {
-    NotFound as default,
-};
+export { NotFound as default };

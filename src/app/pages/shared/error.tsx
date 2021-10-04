@@ -1,14 +1,13 @@
-import React from 'react';
+import React from "react";
 
-function Error(props) {
-    return (
-        <div>
-            Hata:
-            {props.message}
-        </div>
-    );
+// eslint-disable-next-line no-explicit-any
+function Error(props: any) {
+  return (
+    <div>
+      Hata:
+      {props.message}
+    </div>
+  );
 }
 
-export {
-    Error as default,
-};
+export { Error as default };

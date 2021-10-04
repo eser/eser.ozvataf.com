@@ -1,0 +1,62 @@
+@import 'semantic-ui-css/semantic.css';
+
+:root {
+    --body-bg-color: #ffffff;
+}
+
+/* Basic Typography */
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.8em;
+}
+
+body {
+    padding: 2em 2.5em 1em 20em;
+
+    @media print {
+        padding: 0;
+    }
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .ui.header {
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+    color: inherit;
+
+    a {
+        font-weight: 400;
+        color: inherit;
+    }
+}
+
+/* Page Elements */
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #566998; /* Change Link Color */
+}
+
+p {
+    line-height: inherit;
+}
+
+ul.ui.list li, ol.ui.list li, .ui.list > .item, .ui.list .list > .item {
+    line-height: inherit;
+}
+
+/* Large Screens */
+@media only screen and (min-width: 1281px) {
+    html, body {
+        font-size: 1.1em;
+    }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 800px) {
+    body {
+        padding: 0;
+    }
+}

@@ -1,9 +1,10 @@
-import React from 'react';
-import ReactMarkdown from 'react-markdown';
+import React from "react";
+import ReactMarkdown from "react-markdown";
 
 function Projects() {
-    return (
-        <ReactMarkdown source={`
+  return (
+    <ReactMarkdown
+      children={`
 # Projelerim
 
 Çalışmalarıma [Patreon](http://patreon.com/eserozvataf) üzerinden destek verebilirsiniz.
@@ -121,10 +122,8 @@ ve [Diğerleri](https://github.com/eserozvataf)...
 - Sistech.com Teknoloji/Yazılım Haber Sitesi - *Sis*
 - Turkishqf.org Oyun Haber Sitesi
 `}
-        />
-    );
+    />
+  );
 }
 
-export {
-    Projects as default,
-};
+export { Projects as default };

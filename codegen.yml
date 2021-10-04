@@ -1,0 +1,31 @@
+schema: http://127.0.0.1:8000/graphql
+documents: "./src/**/*.graphql"
+overwrite: true
+generates:
+  ./src/gql/graphql-types.tsx:
+      plugins:
+          - typescript
+          - typescript-operations
+          - typescript-react-apollo
+      config:
+          avoidOptionals:
+              field: false
+              object: false
+              inputValue: false
+          declarationKind:
+              union: type
+              type: interface
+              input: interface
+              scalar: interface
+              arguments: interface
+              interface: interface
+          commentDescriptions: true
+          enumsAsTypes: true
+          flattenGeneratedTypes: true
+          immutableTypes: false
+          includeDirectives: true
+          preResolveTypes: false
+          skipTypename: true
+          typesPrefix: G_
+          withComponent: false
+          withHooks: true

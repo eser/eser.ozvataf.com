@@ -1,0 +1,28 @@
+.ui.header.home-header {
+    font-size: 3em;
+    font-weight: normal;
+
+    &:first-child {
+        margin-top: 0.3em;
+    }
+
+    &:last-child {
+        margin-bottom: 0.6em;
+    }
+}
+
+// @media only screen and (min-width: 801px) {
+//     .ui.header.home-header {
+//         display: none;
+//     }
+// }
+
+.boxed {
+    margin: 1em;
+}
+
+.links-with-icons {
+    a {
+        white-space: nowrap;
+    }
+}

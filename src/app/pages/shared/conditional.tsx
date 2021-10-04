@@ -1,11 +1,10 @@
-function Conditional(props) {
-    if (!props.test) {
-        return null;
-    }
+// eslint-disable-next-line no-explicit-any
+function Conditional(props: any) {
+  if (!props.test) {
+    return null;
+  }
 
-    return props.children;
+  return props.children;
 }
 
-export {
-    Conditional as default,
-};
+export { Conditional as default };

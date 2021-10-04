@@ -1,0 +1,28 @@
+{
+    "extends": [
+        "eser-react"
+    ],
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "rules": {
+        "import/extensions": "off",
+        "import/no-extraneous-dependencies": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "jsx-a11y/role-supports-aria-props": "off",
+        "jsx-a11y/control-has-associated-label": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-noninteractive-element-interactions": "off",
+        "no-console": "off",
+        "max-len": "off",
+        "react/require-default-props": "off",
+        "object-shorthand": ["error", "consistent-as-needed"],
+        "react/no-danger": "off",
+        "no-alert": "off",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": ["off", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }]
+    }
+}

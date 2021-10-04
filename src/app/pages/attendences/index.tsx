@@ -1,9 +1,10 @@
-import React from 'react';
-import ReactMarkdown from 'react-markdown';
+import React from "react";
+import ReactMarkdown from "react-markdown";
 
 function Attendences() {
-    return (
-        <ReactMarkdown source={`
+  return (
+    <ReactMarkdown
+      children={`
 # Katılımlarım
 
 ## Konferans/Meetup Konuşmalarım
@@ -67,10 +68,8 @@ function Attendences() {
 - ### WebEnd 2017 - 21 Ekim 2017
   [Sunum: Hangi İhtiyaçlarla Serverless'a Yöneldik?](https://speakerdeck.com/eser/hangi-ihtiyaclarla-serverlessa-yoneldik)
 `}
-        />
-    );
+    />
+  );
 }
 
-export {
-    Attendences as default,
-};
+export { Attendences as default };

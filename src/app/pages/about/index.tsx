@@ -1,9 +1,10 @@
-import React from 'react';
-import ReactMarkdown from 'react-markdown';
+import React from "react";
+import ReactMarkdown from "react-markdown";
 
 function About() {
-    return (
-        <ReactMarkdown source={`
+  return (
+    <ReactMarkdown
+      children={`
 # Hakkımda
 
 İsmim Eser Özvataf, mühendislik yönetimi, kültürel dönüşüm, organizasyon çevikliği,
@@ -63,10 +64,8 @@ Bugün ise Setur'da Yazılım Yöneticisi olarak çalışmaktayım.
 - Populer çizgi roman külliyatına derinlemesine bir hakimiyetim var.
 - Dire Straits, The Smiths, Pink Floyd, Judas Priest ve Iron Maiden müzik zevkimde ciddi bir ağırlık noktası oluşturuyor.
 `}
-        />
-    );
+    />
+  );
 }
 
-export {
-    About as default,
-};
+export { About as default };

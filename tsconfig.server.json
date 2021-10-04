@@ -1,0 +1,32 @@
+{
+  "include": [ // compile TS files in server directory
+    "server",
+    "types"
+  ],
+  "compilerOptions": {
+    "sourceMap": false,
+    "module": "commonjs", // classic format that Node.js understands
+    "target": "es6", // compile to ES6
+    "moduleResolution": "node",
+    "jsx": "react", // compile JSX to React.createElement statements for SSR
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": [
+        "src/*"
+      ]
+    },
+    "lib": ["dom", "dom.iterable", "es6"], // use JavaScript API ES6
+    "allowJs": true, // allow import of JS modules
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true, // allow imports of modules in ES format
+    "forceConsistentCasingInFileNames": true, // prevents cross-OS problems
+    "importsNotUsedAsValues": "error",
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "resolveJsonModule": true, // enable import of JSON files
+    "skipLibCheck": true, // only check types we refer to from our code
+    "strict": true, // enable strict type checking
+    "strictNullChecks": true
+  }
+}

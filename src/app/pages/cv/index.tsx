@@ -1,9 +1,10 @@
-import React from 'react';
-import ReactMarkdown from 'react-markdown';
+import React from "react";
+import ReactMarkdown from "react-markdown";
 
 function Cv() {
-    return (
-        <ReactMarkdown source={`
+  return (
+    <ReactMarkdown
+      children={`
 # Eser Özvataf
 
 İzmir, Türkiye
@@ -149,10 +150,8 @@ Kurum: Microsoft
 Mayıs 2010
 
 `}
-        />
-    );
+    />
+  );
 }
 
-export {
-    Cv as default,
-};
+export { Cv as default };
