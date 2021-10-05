@@ -52,9 +52,9 @@ function Frontpage() {
                 <br />
                 <br />
                 Currently, -undoubtedly, due to the effect of the pandemic- I am
-                working for "Açık Yazılım" which is founded by me and delivers
+                working for "Açık Yazılım" which is founded by myself and
+                delivers <strong>consultancy and software development</strong>
                 {" "}
-                <strong>consultancy and software development</strong>{" "}
                 work to its contracted customers.
               </Container>
             </Segment>
@@ -145,7 +145,7 @@ function Frontpage() {
                 <br />
                 <br />
 
-                As highly contributing{" "}
+                As a highly contributing{" "}
                 <a href="https://github.com/eserozvataf">
                   <FontAwesomeIcon icon={faGithub} /> GitHub
                 </a>{" "}
