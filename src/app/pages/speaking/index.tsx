@@ -47,7 +47,7 @@ function Speaking() {
 [Open Source](https://speakerdeck.com/eser/acik-kaynak) (in Turkish)
 
 ### WebEnd Açık Kaynak - 26 May 2018
-[Open Source Practises](https://speakerdeck.com/eser/acik-kaynak-pratikleri) (in Turkish)
+[Open Source Practices](https://speakerdeck.com/eser/acik-kaynak-pratikleri) (in Turkish)
 
 ### FrontEnd İstanbul - 29 Mar 2018
 [TypeScript](https://speakerdeck.com/eser/typescript) (in Turkish)
