@@ -30,5 +30,5 @@ module.exports = {
     // "color-no-hex": true,
     "scss/comment-no-empty": true,
     "color-hex-case": "lower",
-  }
+  },
 };

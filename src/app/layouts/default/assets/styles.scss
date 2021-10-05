@@ -8,7 +8,7 @@
 html, body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #444;
+    color: #5F5F5F;
     line-height: 1.8em;
 }
 
@@ -41,6 +41,11 @@ a {
 
 p {
     line-height: inherit;
+}
+
+strong {
+    font-weight: 700;
+    color: #000000;
 }
 
 ul.ui.list li, ol.ui.list li, .ui.list > .item, .ui.list .list > .item {

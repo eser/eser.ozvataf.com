@@ -16,57 +16,52 @@ function App() {
         path="/"
         exact={true}
         strict={true}
-        render={() =>
-          (
-            <Layout>
-              <Frontpage />
-            </Layout>
-          )}
+        render={() => (
+          <Layout>
+            <Frontpage />
+          </Layout>
+        )}
       />
 
       <Route
         path="/about/"
         exact={true}
         strict={true}
-        render={() =>
-          (
-            <Layout>
-              <About />
-            </Layout>
-          )}
+        render={() => (
+          <Layout>
+            <About />
+          </Layout>
+        )}
       />
       <Route
         path="/portfolio/"
         exact={true}
         strict={true}
-        render={() =>
-          (
-            <Layout>
-              <Portfolio />
-            </Layout>
-          )}
+        render={() => (
+          <Layout>
+            <Portfolio />
+          </Layout>
+        )}
       />
       <Route
         path="/attendences/"
         exact={true}
         strict={true}
-        render={() =>
-          (
-            <Layout>
-              <Attendences />
-            </Layout>
-          )}
+        render={() => (
+          <Layout>
+            <Attendences />
+          </Layout>
+        )}
       />
       <Route
         path="/cv/"
         exact={true}
         strict={true}
-        render={() =>
-          (
-            <Layout>
-              <Cv />
-            </Layout>
-          )}
+        render={() => (
+          <Layout>
+            <Cv />
+          </Layout>
+        )}
       />
 
       <Route render={() => <NotFound />} />
