@@ -87,7 +87,7 @@ function Frontpage() {
 
                 <Header as="h4">Runtimes:</Header>
                 <div>
-                  .NET, JVM, node.js, Deno
+                  .NET, JVM, Node.js, Deno
                 </div>
 
                 <Header as="h4">Databases:</Header>
