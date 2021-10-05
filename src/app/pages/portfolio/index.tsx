@@ -16,7 +16,7 @@ function Portfolio() {
 - [GitHub Profile](https://github.com/eserozvataf) (github.com/eserozvataf)
 
 
-## Organizers Of
+## Organizer Of
 - [açık-kaynak.org](https://acik-kaynak.org) (acik-kaynak.org)
 - [JSTANBUL](https://kommunity.com/jstanbul) (kommunity.com/jstanbul)
 
