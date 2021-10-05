@@ -75,7 +75,8 @@ function Frontpage() {
                 </Header>
                 <div>
                   Kubernetes, Docker, AWS Lambda, AWS ECS,{" "}
-                  AWS Elasticbeanstalk, Azure AppServices
+                  AWS Elasticbeanstalk, Azure AppServices, Azure AKS,{" "}
+                  GCP GKE Autopilot
                 </div>
 
                 <Header as="h4">Cloud Platforms:</Header>
@@ -106,7 +107,14 @@ function Frontpage() {
                   Backend Tools, Libraries and Frameworks:
                 </Header>
                 <div>
-                  Serverless Framework, Express, Django, Graphene
+                  Serverless Framework, Express, Django, Graphene GraphQL
+                </div>
+
+                <Header as="h4">
+                  DevOps Tools, Libraries and Frameworks:
+                </Header>
+                <div>
+                  Istio, Linkerd, Prometheus, Grafana
                 </div>
 
                 <Header as="h4">Architectural Concepts:</Header>
