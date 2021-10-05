@@ -57,6 +57,9 @@ function Layout(props: any) {
         <h2>
           <NavLink exact={true} to="/">Frontpage</NavLink>
         </h2>
+        <h2>
+          <NavLink to="/cv/">Curriculum Vitae</NavLink>
+        </h2>
         {
           /* <h2>
           <NavLink to="/about/">About Me</NavLink>
@@ -66,9 +69,6 @@ function Layout(props: any) {
         </h2>
         <h2>
           <NavLink to="/attendences/">Conferences/Events</NavLink>
-        </h2>
-        <h2>
-          <NavLink to="/cv/">Curriculum Vitae</NavLink>
         </h2> */
         }
       </header>

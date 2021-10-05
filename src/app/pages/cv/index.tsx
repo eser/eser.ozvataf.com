@@ -5,149 +5,242 @@ function Cv() {
   return (
     <ReactMarkdown
       children={`
-# Eser Özvataf
+## Experience
+-------------
 
-İzmir, Türkiye
-[eser@ozvataf.com](mailto:eser@ozvataf.com)
+### Director, Açık Yazılım
 
+Nov 2020 - Present
 
-## Özet
+An IT project delivery and outsource contractor initiative which provides engineering know-how and work force for its customers.
 
-Soyutlama ve kutunun dışından düşünme konularında yetenekli biri olarak 18 yıl içerisinde IT alanında
-birçok farklı rolde yer aldım. Yazılım Geliştirici olarak başladığım çalışma hayatında Proje Yönetimi,
-Kurumsal Mimarlık ve Süreç Liderliği görevleriyle devam ettim. Geldiğim noktada Agile ve DevOps
-pratiklerini özümseyerek farklı şehirlerdeki farklı ürün gruplarının süreç işleyişleri ve değer
-çıktılarını garantiye alan bir görev üstleniyorum.
+Achievements:
+- Delivered and maintained a contracted work which is a marketplace specialized on holistic wellbeing services
+- Provided consultancy to a well-known Turkish Unicorn during their transition to product-based agile teams
 
-Profesyonel çalışmalarımın yanısıra gönüllü olarak konferans ve yerel etkinliklere konuşmacı olarak
-katılıyorum; Twitch'de yayınlar düzenliyorum.
-
-
-## Deneyim
-
-### **Yazılım Yöneticisi, Setur**
-
-Eylül 2018 - Mevcut
-
-Sorumluluklar:
-- 32 kişilik bir ekibin direkt yönetsel sorumluluğu,
-- Agile ve DevOps dönüşümü,
-- Agile yazılım ve ürün geliştirme süreçlerinin tasarlanması,
-- Yazılım kalite kriterleri ve metriklerinin belirlenmesi,
-- Meetuplar ve eğitimler,
-- Pratiklerin yaygınlaştırılması,
-- Açık Kaynak araçlar,
-- Uzaktan çalışma kültürü,
-- Koçluk ve mentörlük,
-
-Teknoloji: JavaScript, React, React Native, node.js, .NET Core, Kubernetes, Azure, AKS, Microservices, Containerization, Docker, Linux
-
-### **Yazılım Geliştirme Lideri, KoçSistem**
-
-Mayıs 2016 - Eylül 2018
-
-### **Yazılım Mimarı, Mobilex**
-
-Eylül 2015 - Nisan 2016
-
-### **E-Ticaret Yazılım Danışmanı, Zaimoğlu Holding**
-
-Eylül 2014 - Ağustos 2015
-
-### **Sosyal Medya Uzmanı ve Araştırma Görevlisi, Doğu Akdeniz Üniversitesi**
-
-Eylül 2013 - Eylül 2014
-
-### **Takım Lideri, Goldsoft**
-
-Haziran 2012 - Ağustos 2013
-
-### **Yazılım Geliştirme Yöneticisi, CMFNet**
-
-Haziran 2008 - Mayıs 2012
-
-### **Yazılım Tasarım Mühendisi, devBiz**
-
-Ağustos 2006 - Ocak 2007
-
-### **Backend Yazılım Geliştirici ve Sistem Yöneticisi, Ispro**
-
-Mart 2005 - Nisan 2006
-
-### **Web Yazılım Geliştirici, Egebilgi**
-
-Haziran 2004 - Şubat 2005
-
-### **Web Yazılım Geliştirici, Sis Hosting**
-
-Haziran 2001 - Ağustos 2002
+Technologies, Platforms and Concepts experienced during the period:
+- JavaScript, Python
+- Amazon Web Services (AWS), Google Cloud Provider (GCP), Cloudflare
+- Kubernetes, Docker, AWS ECS, GCP GKE Autopilot, Cloudflare Pages
+- React, React Hooks, Graphene GraphQL, Django
 
 
-## Eğitim
+### Coordinator of Projects, Turkish Open Source Platform
 
-### **Yüksek Lisans - Information and Communication Technologies in Education**
+Dec 2020 - May 2021
 
-Kurum: Doğu Akdeniz Üniversitesi
-Ortalama: 3.44/4
+An establishment under the auspices of the Ministry of Industry and Technology of the Turkish state, Turkey Open Source Platform aims to increase the number of software developers Turkey needs, to increase the qualifications of existing software developers and to develop the open source ecosystem. In this respect, the platform performs a similar function to CNCF (CloudNative Foundation) and Linux Foundation.
+
+Achievements:
+- Established and facilitated weekly meetings of project groups under five different project topics in order to produce the software needed by the public and private sectors in Turkey with open source software (These topics were Natural Language Processing, Cloud and Database Systems, Mobility, Linux (Pardus) and Digital Badges.)
+- Formed collaborations between platform stakeholders
+- Planned and kicked off online a webinar series and two hackathons
+- Designed an architecture and developed project analysis of a digital badge and verification project
+- Assisted and reviewed technical output related with projects
+
+
+### Software Manager, Setur
+
+Sep 2018 - Nov 2020
+
+Setur is the tourism and duty-free merchandising company of Koç Holding Group of Companies, which is on the Fortune 500 list.
+
+Achievements:
+- Led and coached the management during Agile and DevOps transformation
+- Redesigned software and product development processes
+- Formed and facilitated 9 agile product teams, led 30+ people with various functions (UX, QA, SE, BA etc.)
+- Designed company-wide prioritization flow and how product teams function in daily basis. Maintained source and delivery planning of product teams
+- Transformed Windows & .NET only ecosystem into polyglot-enabled, linux-containerized, orchestrated and multi-regional infrastructure runs on Kubernetes
+- Established software quality assurance and delivery metrics with monitoring, tracing and alerting mechanisms
+- Improved IT recruitment processes, attended 300+ recruitment meetings
+- Enabled remote and multi-regional development culture
+- Organized meetup and training sessions
+
+Technologies, Platforms and Concepts experienced during the period:
+- JavaScript, .NET, Java
+- Microsoft Azure
+- Kubernetes, Docker, Azure AKS, Azure AppServices
+- Linux, Windows, macOS - React, React Native
+- node.js, Postgres, SQL Server
+- Microservices, Domain Driven Design (DDD)
+- CloudNative, OpenSource
+
+
+### Lead Software Developer, KoçSistem
+
+May 2016 - Sep 2018
+
+KoçSistem is the information technology company of Koç Holding Group of Companies, which is on the Fortune 500 list. They offers a wide range of products and services in areas such as Internet of Things, Big Data & Analytics, Security, Corporate Cloud, Corporate Mobility, Business Solutions, Digital Workforce and RPA.
+
+Achievements:
+- Kicked off company's main application framework and was first member of the company's DevOps and Software Architecture teams
+- Helped other teams to embrace Agile and DevOps practices,
+- Took parts of analysis and decisions of company's product choices (such as CMSes, orchestration tools, etc)
+- Delivered company's first serverless project runs on AWS Lambda
+- Delivered and maintained 3 enterprise solutions to customers
+- Attended recruitment meetings as a technical interviewer
+
+Technologies, Platforms and Concepts experienced during the period:
+- JavaScript, .NET
+- Amazon Web Services (AWS)
+- Docker, MongoDB
+- node.js, AWS S3, AWS Lambda, AWS Cognito
+- FaaS, Domain Driven Design (DDD)
+
+
+### Software Architect, Mobilex
+
+Sep 2015 - Apr 2016
+
+
+### E-Commerce Software Consultant, Zaimoglu Holding
+
+Sep 2014 - Aug 2015
+
+
+### Social Media Oriented Web Development and Research Assistant, Eastern Mediterranean University
+
+Sep 2013 - Sep 2014
+
+
+### Team Lead, Goldsoft Trading
+
+Jun 2012 - Aug 2013
+
+
+### Head of Software Development, CMFNet
+
+Jun 2008 - May 2012
+
+
+### Software Design Engineer, DevBiz
+
+Apr 2006 - Jan 2007
+
+
+### Backend Developer and System Administrator, Ispro
+
+Mar 2005 - Apr 2006
+
+
+### Web Developer, Egebilgi
+
+Jun 2004 - Feb 2005
+
+
+### Web Developer, Sis Hosting
+
+Jan 2001 - Aug 2002
+
+
+
+## Education
+------------
+
+### Master's Degree - Information and Communication Technologies in Education
+
 2013 - 2019
 
-### **Lisans - Information Technology**
+Eastern Mediterranean University, CGPA: 3.44 / 4.00
 
-Kurum: Doğu Akdeniz Üniversitesi
-Ortalama: 3.12/4
+
+### Bachelor of Science - Information Technology
+
 2010 - 2012
 
-### **Önlisans - Bilgisayar Programcılığı**
+Eastern Mediterranean University, CGPA: 3.12 / 4.00
 
-Kurum: Celal Bayar Üniversitesi
-Ortalama: 78.77/100
+
+### Associate's Degree - Computer Programming
+
 2002 - 2004
 
-
-## Sertifikalar ve Sınavlar
-
-### Uygulamalı Girişimcilik Eğitimi
-
-Kurum: KOSGEB
-Nisan 2016
-
-### **edx** CS-169.1x: Software as a Service
-
-Kurum: Berkeley (University of California)
-Ağustos 2013
-https://verify.edx.org/cert/da723362e8b74500992fc4bc84e5324c
+Celal Bayar University, CGPA: 78.77/100
 
 
-### **edx** 6.00x: Introduction to Computer Science and Programming
 
-Kurum: The Massachusetts Institute of Technology
-Haziran 2013
-https://verify.edx.org/cert/4b90bae7e00a4d94b9793c93339334ba
+## Certificates and Exams
+-------------------------
 
-### Akademik Personel ve Lisansüstü Eğitimi Giriş Sınavı
+### LEAD Execution Program - Personal Branding, Reputation and Perception Management Training for Leaders
 
-Kurum: OSYM
-Mayıs 2012
+Sep 2019
+
+Issuer: Koç Holding HR - Koç University
+
+
+### LEAD Execution Program - Customer Experience
+
+Sep 2019
+
+Issuer: Koç Holding HR - Koç University
+
+
+### Assessment Center
+
+Aug 2019
+
+Issuer: TAG
+
+
+### Applied Entrepreneurship Training
+
+Apr 2016
+
+Issuer: KOSGEB
+
+
+### edx CS-169.1x: Software as a Service
+
+Aug 2013
+
+Issuer: Berkeley (University of California)
+
+[https://verify.edx.org/cert/da723362e8b74500992fc4bc84e5324c](https://verify.edx.org/cert/da723362e8b74500992fc4bc84e5324c)
+
+
+### edx 6.00x: Introduction to Computer Science and Programming
+
+Jun 2013
+
+Issuer: The Massachusetts Institute of Technology
+
+[https://verify.edx.org/cert/4b90bae7e00a4d94b9793c93339334ba](https://verify.edx.org/cert/4b90bae7e00a4d94b9793c93339334ba)
+
+
+### Academic Personnel and Graduate Education Exam
+
+May 2012
+
+Issuer: OSYM
+
 
 ### General English (EFL) - Upper-Intermediate (Council of Europe B2)
 
-Kurum: UKLA
-Haziran 2011
+Jun 2011
 
-### Proje Yönetimi Metodolojisi ve Uygulamaları
+Issuer: UKLA
 
-Kurum: Turkcell Akademi
-Haziran 2011
+
+### Project Management Methodologies and Practices
+
+Jun 2011
+
+Issuer: Turkcell Akademi
+
 
 ### MCTS - Microsoft Windows Mobile Application Development
 
-Kurum: Microsoft
-Mayıs 2010
+May 2010
+
+Issuer: Microsoft
+
 
 ### MCTS - Microsoft Windows Mobile Designing, Implementing and Managing
 
-Kurum: Microsoft
-Mayıs 2010
+May 2010
+
+Issuer: Microsoft
 
 `}
     />
