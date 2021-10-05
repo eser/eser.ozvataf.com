@@ -60,6 +60,9 @@ function Layout(props: any) {
         <h2>
           <NavLink to="/cv/">Curriculum Vitae</NavLink>
         </h2>
+        <h2>
+          <NavLink to="/speaking/">Speaking</NavLink>
+        </h2>
         {
           /* <h2>
           <NavLink to="/about/">About Me</NavLink>
@@ -67,9 +70,7 @@ function Layout(props: any) {
         <h2>
           <NavLink to="/portfolio/">Portfolio</NavLink>
         </h2>
-        <h2>
-          <NavLink to="/attendences/">Conferences/Events</NavLink>
-        </h2> */
+         */
         }
       </header>
       <main className={layoutStyles.pageContent}>

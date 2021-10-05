@@ -5,7 +5,7 @@ import Layout from "./layouts/default/index";
 import Frontpage from "./pages/frontpage/index";
 import About from "./pages/about/index";
 import Portfolio from "./pages/portfolio/index";
-import Attendences from "./pages/attendences/index";
+import Speaking from "./pages/speaking/index";
 import Cv from "./pages/cv/index";
 import NotFound from "./pages/notFound/index";
 
@@ -44,12 +44,12 @@ function App() {
         )}
       />
       <Route
-        path="/attendences/"
+        path="/speaking/"
         exact={true}
         strict={true}
         render={() => (
           <Layout>
-            <Attendences />
+            <Speaking />
           </Layout>
         )}
       />
