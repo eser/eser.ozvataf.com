@@ -2,9 +2,9 @@ import React from "react";
 import { Route, Switch } from "react-router";
 
 import Layout from "./layouts/default/index";
-import Home from "./pages/home/index";
+import Frontpage from "./pages/frontpage/index";
 import About from "./pages/about/index";
-import Projects from "./pages/projects/index";
+import Portfolio from "./pages/portfolio/index";
 import Attendences from "./pages/attendences/index";
 import Cv from "./pages/cv/index";
 import NotFound from "./pages/notFound/index";
@@ -19,7 +19,7 @@ function App() {
         render={() =>
           (
             <Layout>
-              <Home />
+              <Frontpage />
             </Layout>
           )}
       />
@@ -36,13 +36,13 @@ function App() {
           )}
       />
       <Route
-        path="/projects/"
+        path="/portfolio/"
         exact={true}
         strict={true}
         render={() =>
           (
             <Layout>
-              <Projects />
+              <Portfolio />
             </Layout>
           )}
       />

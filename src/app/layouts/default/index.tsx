@@ -28,7 +28,7 @@ function Layout(props: any) {
         <h1>
           <NavLink exact={true} to="/">Eser Ozvataf</NavLink>
         </h1>
-        <p>Yazılım Düşünür, Planlar, Geliştirir, Konuşur</p>
+        <p>A technical generalist in consulting</p>
         <div className={layoutStyles.followIcons}>
           <a aria-label="Twitch" href="https://twitch.tv/laroux">
             <FontAwesomeIcon size="2x" icon={faTwitch} />
@@ -55,19 +55,19 @@ function Layout(props: any) {
         </div>
 
         <h2>
-          <NavLink exact={true} to="/">Giriş</NavLink>
+          <NavLink exact={true} to="/">Frontpage</NavLink>
         </h2>
         <h2>
-          <NavLink to="/about/">Hakkımda</NavLink>
+          <NavLink to="/about/">About Me</NavLink>
         </h2>
         <h2>
-          <NavLink to="/projects/">Projelerim</NavLink>
+          <NavLink to="/portfolio/">Portfolio</NavLink>
         </h2>
         <h2>
-          <NavLink to="/attendences/">Katılımlarım</NavLink>
+          <NavLink to="/attendences/">Conferences/Events</NavLink>
         </h2>
         <h2>
-          <NavLink to="/cv/">CV</NavLink>
+          <NavLink to="/cv/">Curriculum Vitae</NavLink>
         </h2>
       </header>
       <main className={layoutStyles.pageContent}>

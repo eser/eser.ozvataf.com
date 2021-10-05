@@ -1,7 +1,7 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 
-function Projects() {
+function Portfolio() {
   return (
     <ReactMarkdown
       children={`
@@ -126,4 +126,4 @@ ve [Diğerleri](https://github.com/eserozvataf)...
   );
 }
 
-export { Projects as default };
+export { Portfolio as default };

@@ -4,7 +4,10 @@ interface CssExports {
   'boxed': string;
   'header': string;
   'homeHeader': string;
+  'label': string;
   'linksWithIcons': string;
+  'ribbon': string;
+  'right': string;
   'ui': string;
 }
 export const cssExports: CssExports;
