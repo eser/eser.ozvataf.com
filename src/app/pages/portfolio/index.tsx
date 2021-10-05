@@ -5,28 +5,28 @@ function Portfolio() {
   return (
     <ReactMarkdown
       children={`
-# Projelerim
+# Portfolio
 
-Çalışmalarıma [Patreon](http://patreon.com/eserozvataf) üzerinden destek verebilirsiniz.
-
-## Yayınlar
+## Streams
 - [Twitch](https://twitch.com/laroux) (twitch.com/laroux)
-- [YouTube](https://www.youtube.com/channel/UCS3eVZDirUNTFrteoJsLP4g) (yayın tekrarları için)
+- [YouTube](https://www.youtube.com/EserOzvataf) (for past recordings)
 
-## Sosyal
-- [GitHub Profilim](https://github.com/eserozvataf) (github.com/eserozvataf)
-- [Açık-Kaynak.org](https://acik-kaynak.org) (acik-kaynak.org)
-- [JSTANBUL Organizasyon](https://kommunity.com/jstanbul) (kommunity.com/jstanbul)
 
-## Başlattığım Açık Kaynak Projeler
+## Social
+- [GitHub Profile](https://github.com/eserozvataf) (github.com/eserozvataf)
 
-[hex-functions](https://github.com/eserozvataf/hex-functions),
+
+## Organizers Of
+- [açık-kaynak.org](https://acik-kaynak.org) (acik-kaynak.org)
+- [JSTANBUL](https://kommunity.com/jstanbul) (kommunity.com/jstanbul)
+
+
+## Open Source Projects I Started
+
+[hex](https://github.com/eserozvataf/hex),
 [hex-service](https://github.com/eserozvataf/hex-service),
 [darty](https://github.com/eserozvataf/darty),
 [Tassle](https://github.com/eserozvataf/tassle),
-[jsmake](https://github.com/eserozvataf/jsmake),
-[jsmake-libraries](https://github.com/eserozvataf/jsmake-libraries),
-[react-eventmanager](https://github.com/eserozvataf/react-eventmanager),
 [laroux.js](https://github.com/eserozvataf/laroux.js),
 [sey](https://github.com/eserozvataf/sey),
 [apibone](https://github.com/eserozvataf/apibone),
@@ -34,67 +34,80 @@ function Portfolio() {
 [PM Tool](https://github.com/eserozvataf/pm),
 [Survey Tool](https://github.com/eserozvataf/survey),
 [Quake 3 Now](https://github.com/eserozvataf/q3now)
+and [Others](https://github.com/eserozvataf)...
 
-ve [Diğerleri](https://github.com/eserozvataf)...
 
-## Geçmişte Yer Aldığım Bazı Projeler
+## Projects I Worked On
+
+2021
+
+- Marketplace specialized on holistic wellbeing services - *Açık Yazılım*
+
+2020
+
+- Blogging Platform for Influencers and Travelers - *Setur*
+- B2B Holiday and Hotel Booking Mobile Application - *Setur*
+- B2B Holiday and Hotel Booking Site - *Setur*
+- B2C Holiday and Hotel Booking Mobile Application - *Setur*
 
 2019
 
-- Kurumsal DevOps altyapısı ve Agile dönüşüm - *Setur*
+- B2C Holiday and Hotel Booking Site - *Setur*
+- B2E Holiday and Hotel Booking Site - *Setur*
+- Promotion Service for Hotel, Tour and Cruise Shopping - *Setur*
 
 2018
 
-- Kurumsal DevOps altyapısı ve Agile dönüşüm - *KoçSistem*
+- Enterprise-grade Application Framework - *KoçSistem*
 
 2017
 
-- Danışan takibi üzerine kurumsal bir serverless AWS projesi - *KoçSistem*
-- İş/çalışan takibi üzerine kurumsal bir .NET Core projesi - *KoçSistem*
+- Consultant Relationship System runs on Serverless AWS service - *KoçSistem*
+- Enterprise .NET Core Project on Employee Tracking - *KoçSistem*
 
 2016
 
-- Kapı Sistemleri üzerine kurumsal bir .NET projesi - *KoçSistem*
-- Olev Niş Bir Uber Klonu - *Freelance*
-- Thatsup Sosyal Medya Girişimi - *Freelance*
+- Enterprise .NET Project on Door, Region Access Management - *KoçSistem*
+- Olev, Local Uber Clone - *Freelance*
+- Thatsup Social Media Initiative - *Freelance*
 
 2015
 
-- Alanadları.com Dijital Emlak Piyasası - *Freelance*
-- Servisvar.com Servis Platformu - *Freelance*
-- Magma.com.tr Online Sipariş Sitesi - *Zaimoğlu Holding*
-- Luksbazaar.com Online Alışveriş Mağazası - *Zaimoğlu Holding*
-- Magento için Xml Senkronizasyon Uygulaması - *Zaimoğlu Holding*
+- Alanadları.com Digital Domain Market - *Freelance*
+- Servisvar.com Automobile Service and Rental Platform - *Freelance*
+- Magma.com.tr Online Shopping Store - *Zaimoğlu Holding*
+- Luksbazaar.com Online Shopping Store - *Zaimoğlu Holding*
+- Xml Synchronization Application for Magento - *Zaimoğlu Holding*
 
 2014
 
-- EasyWords Kelime Ezberleme Uygulaması - *Freelance*
-- Hayırlısı.net Online Alışveriş Mağazası - *Freelance*
-- Sosyalim Lokasyon Bazlı Mesajlaşma - *Freelance*
-- OrnekHolidays.com Tatil Rezervasyon Sistemi - *Freelance*
-- Doğu Akdeniz Üniversitesi Fotoğraf Yarışması - *DAÜ Sosyal Medya*
-- Üstün Zekalılar Enstitüsü Online Sınav Sistemi - *Freelance*
-- Beylerbeyi Emlak Online Emlak Sitesi - *Freelance*
-- Hasan Sungur Group of Companies Portfolyo Sitesi - *Freelance*
+- EasyWords Word Memorization Application - *Freelance*
+- Hayırlısı.net Online Shopping Store - *Freelance*
+- Sosyalim Location-based Messaging - *Freelance*
+- OrnekHolidays.com Holiday and Hotel Booking Site - *Freelance*
+- Doğu Akdeniz Üniversitesi Photograph Contest - *DAÜ Sosyal Medya*
+- Üstün Zekalılar Enstitüsü Online Examination System - *Freelance*
+- Beylerbeyi Emlak Online Real Estate Site - *Freelance*
+- Hasan Sungur Group of Companies Portfolio Site - *Freelance*
 - Tetris for Windows Mobile
-- 10+2 Windows Mobile Verimlilik Uygulaması
+- 10+2 Windows Mobile Productivity Application
 
 2013
 
-- Interesd Social Aggregator Sosyal Mecra - *Goldsoft*
-- Kibrissiparis.com Yerel Market ve Yemek Sipariş Sitesi - *Goldsoft*
+- Interesd Social Aggregator Social Media Initiative - *Goldsoft*
+- Kibrissiparis.com Local Market and Food Delivery Site - *Goldsoft*
 
 2008-2012
 
-- CMFCell AtlasJet Inhouse SMS Mesaj Servisi - *CMFNet*
-- CMFCell Yaşar Holding DYO Sadakat Programı - *CMFNet*
-- CMFCell UA (Ukraine) SMS Gateway Mesaj Servisi - *CMFNet*
-- CMFCell Message Gateway Mesaj Servisi - *CMFNet*
-- Turkcell Outlook Mobile Service Mesaj Servisi - *CMFNet*
-- Life (Ukrayna GSM Operatörü) Kazıma Kartı Sistemi - *CMFNet*
-- CMFCell Excel Eklentisi - *CMFNet*
-- CMFCell Outlook ve Active Directory Eklentisi - *CMFNet*
-- CMFCell Desktop Adres Defteri ve Mesaj Gönderim Yazılımı - *CMFNet*
+- CMFCell AtlasJet Inhouse SMS Messaging Service - *CMFNet*
+- CMFCell Yaşar Holding DYO Royalty System - *CMFNet*
+- CMFCell UA (Ukraine) SMS Gateway Messaging Service - *CMFNet*
+- CMFCell Message Gateway Messaging Service - *CMFNet*
+- Turkcell Outlook Mobile Service Messaging Service - *CMFNet*
+- Life (GSM Carrier in Ukraine) Scratch Card System - *CMFNet*
+- CMFCell Excel Add-In - *CMFNet*
+- CMFCell Outlook and Active Directory Add-In - *CMFNet*
+- CMFCell Desktop Addressbook ve Messaging Software - *CMFNet*
 
 2006
 
@@ -103,24 +116,24 @@ ve [Diğerleri](https://github.com/eserozvataf)...
 
 2005
 
-- ISPRO.net Web Hosting Paneli - *ISPRO*
-- Oruçoğlu Termal Otel Online Rezervasyon - *ISPRO*
-- Egem Online Servis Randevu Sistemi - *ISPRO*
+- ISPRO.net Web Hosting Panel - *ISPRO*
+- Oruçoğlu Termal Hotel Online Appointment System - *ISPRO*
+- Egem Online Automobile Service Appointment System - *ISPRO*
 
 2004
 
-- Egebilgi.net Kobi Portalı - *Egebilgi*
-- do-re Online Alışveriş Sitesi - *Egebilgi*
-- Sir Winston Tea Web Sitesi - *Egebilgi*
-- Boomerang İçerik Yönetim Sistemi - *Egebilgi*
+- Egebilgi.net SME Portal - *Egebilgi*
+- do-re Online Shopping Store - *Egebilgi*
+- Sir Winston Tea Web Site - *Egebilgi*
+- Boomerang Content Management System - *Egebilgi*
 
-2004 Öncesi
+Pre-2004
 
-- Sis Web Hosting Otomasyonu - *Sis*
-- Gozcard/Göztepe Spor Kulübü Online Alışveriş Mağazası - *Sis*
-- Otolab Online Araç Bakım Randevu Sistemi - *Freelance*
-- Sistech.com Teknoloji/Yazılım Haber Sitesi - *Sis*
-- Turkishqf.org Oyun Haber Sitesi
+- Sis Web Hosting Automation - *Sis*
+- Gozcard/Göztepe Sport Club Online Shopping Store - *Sis*
+- Otolab Online Automobile Service Appointment System - *Freelance*
+- Sistech.com Technology/Software News Portal - *Sis*
+- Turkishqf.org Gaming News Portal
 `}
     />
   );
