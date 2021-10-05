@@ -7,21 +7,23 @@ function Portfolio() {
       children={`
 # Portfolio
 
-## Streams
-- [Twitch](https://twitch.com/laroux) (twitch.com/laroux)
-- [YouTube](https://www.youtube.com/EserOzvataf) (for past recordings)
+## Content and Projects
+-----------------------
 
-
-## Social
+- [Twitch Streams](https://twitch.com/laroux) (twitch.com/laroux)
+- [YouTube Videos](https://www.youtube.com/EserOzvataf) (youtube.com/EserOzvataf)
 - [GitHub Profile](https://github.com/eserozvataf) (github.com/eserozvataf)
 
 
 ## Organizer Of
+---------------
+
 - [açık-kaynak.org](https://acik-kaynak.org) (acik-kaynak.org)
 - [JSTANBUL](https://kommunity.com/jstanbul) (kommunity.com/jstanbul)
 
 
 ## Open Source Projects I Started
+---------------------------------
 
 [hex](https://github.com/eserozvataf/hex),
 [hex-service](https://github.com/eserozvataf/hex-service),
@@ -38,6 +40,7 @@ and [Others](https://github.com/eserozvataf)...
 
 
 ## Projects I Worked On
+-----------------------
 
 2021
 
