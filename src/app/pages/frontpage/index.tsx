@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAddressCard,
   faChalkboardTeacher,
-  faCoffee,
   faExternalLinkSquareAlt,
   faTools,
+  faUserGraduate,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
@@ -36,8 +36,8 @@ function Frontpage() {
               </Label>
               <Container className={styles.boxed}>
                 As a <strong>technical generalist</strong>{" "}
-                who believes his organizational skills, abstraction and
-                out-of-the-box-thinking are his strengths, I have taken various
+                who believes my organizational skills, abstraction and
+                out-of-the-box-thinking are my strengths, I have taken various
                 professional roles in the IT field <strong>since 2001</strong>.
                 <br />
                 <br />
@@ -61,17 +61,16 @@ function Frontpage() {
 
             <Segment>
               <Label ribbon>
-                <FontAwesomeIcon icon={faTools} />{" "}
-                Technologies, Platforms and Concepts I expertised
+                <FontAwesomeIcon icon={faTools} /> Tech Stacks I Expertised
               </Label>
               <Container className={styles.boxed}>
-                <Header as="h4">Programming Languages:</Header>
+                <Header as="h4">Programming Languages</Header>
                 <div>
                   JavaScript, Python, PHP, C#, Java, C++, C, Pascal, Basic
                 </div>
 
                 <Header as="h4">
-                  Application and Virtualization Platforms:
+                  Application and Virtualization Platforms
                 </Header>
                 <div>
                   Kubernetes, Docker, AWS Lambda, AWS ECS,{" "}
@@ -79,24 +78,24 @@ function Frontpage() {
                   GCP GKE Autopilot
                 </div>
 
-                <Header as="h4">Cloud Platforms:</Header>
+                <Header as="h4">Cloud Providers</Header>
                 <div>
                   Amazon Web Services (AWS), Microsoft Azure, Google{" "}
                   Cloud Platform (GCP)
                 </div>
 
-                <Header as="h4">Runtimes:</Header>
+                <Header as="h4">Runtimes</Header>
                 <div>
                   .NET, JVM, Node.js, Deno
                 </div>
 
-                <Header as="h4">Databases:</Header>
+                <Header as="h4">Databases</Header>
                 <div>
                   Postgres, MySQL, MariaDB, Mongodb, SQL Server, Oracle
                 </div>
 
                 <Header as="h4">
-                  Frontend Tools, Libraries and Frameworks:
+                  Frontend Tools, Libraries and Frameworks
                 </Header>
                 <div>
                   React, Next.js, jQuery, Knockout.js, Backbone,{" "}
@@ -104,22 +103,17 @@ function Frontpage() {
                 </div>
 
                 <Header as="h4">
-                  Backend Tools, Libraries and Frameworks:
+                  Backend Tools, Libraries and Frameworks
                 </Header>
                 <div>
                   Serverless Framework, Express, Django, Graphene GraphQL
                 </div>
 
                 <Header as="h4">
-                  DevOps Tools, Libraries and Frameworks:
+                  DevOps Tools, Libraries and Frameworks
                 </Header>
                 <div>
-                  Istio, Linkerd, Prometheus, Grafana
-                </div>
-
-                <Header as="h4">Architectural Concepts:</Header>
-                <div>
-                  FaaS, Serverless, Microservices, Domain Driven Design (DDD)
+                  Istio, Linkerd, Prometheus, Grafana, Helm, Terraform
                 </div>
               </Container>
             </Segment>
@@ -183,16 +177,35 @@ function Frontpage() {
               </Container>
             </Segment>
 
-            {
-              /* <Segment>
-              <Label ribbon="right">
-                Buy Me A Coffee <FontAwesomeIcon icon={faCoffee} />
+            <Segment>
+              <Label ribbon>
+                <FontAwesomeIcon icon={faUserGraduate} />{" "}
+                Soft and Seniorship Skills
               </Label>
-              <Container className={`${styles.boxed} ${styles.linksWithIcons}`}>
-                <a href="https://www.buymeacoffee.com/eserozvataf">Buy Me A Coffee</a>
+              <Container className={styles.boxed}>
+                <Header as="h4">Architectural Concepts</Header>
+                <div>
+                  Functions as a Service (FaaS), Serverless, Microservices,
+                  Domain Driven Design (DDD)
+                </div>
+
+                <Header as="h4">Cultural Adoptations</Header>
+                <div>
+                  Agile, Kaizen, DevOps, Data-Driven Decision-Making (DDDM),
+                  Cross-Functional Product Teams
+                </div>
+
+                <Header as="h4">Planning</Header>
+                <div>
+                  User Story Mapping, Release Roadmaps
+                </div>
+
+                <Header as="h4">Project Management Frameworks</Header>
+                <div>
+                  SCRUM, Kanban
+                </div>
               </Container>
-            </Segment> */
-            }
+            </Segment>
           </Grid.Column>
         </Grid>
       </Container>
