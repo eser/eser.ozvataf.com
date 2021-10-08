@@ -178,7 +178,7 @@ function Frontpage() {
             </Segment>
 
             <Segment>
-              <Label ribbon>
+              <Label ribbon="right">
                 <FontAwesomeIcon icon={faUserGraduate} />{" "}
                 Soft and Seniorship Skills
               </Label>
