@@ -42,13 +42,13 @@ function Frontpage() {
                 <br />
                 <br />
                 I have started my career as a <strong>Developer</strong>{" "}
-                and continued with many duties such as{" "}
+                and continued with many duties as{" "}
                 <strong>Software Architect</strong>,{" "}
                 <strong>Delivery Manager</strong>,{" "}
-                <strong>Engineering Manager and Director</strong>. In years, I
-                had gained experience in leading value delivery of multiple
-                product groups no matter how they are specialized, located and
-                distributed.
+                <strong>Engineering Manager and Director</strong>. Over the
+                years, I have gained experience in leading value delivery of
+                multiple product groups no matter how they are specialized,{" "}
+                located and distributed.
                 <br />
                 <br />
                 Currently, -undoubtedly, due to the effect of the pandemic- I am
@@ -130,9 +130,7 @@ function Frontpage() {
                 <a href="https://twitch.tv/laroux">
                   <FontAwesomeIcon icon={faTwitch} /> Twitch
                 </a>. Past recordings can be found at{" "}
-                <a
-                  href="https://www.youtube.com/channel/UCS3eVZDirUNTFrteoJsLP4g"
-                >
+                <a href="https://www.youtube.com/channel/UCS3eVZDirUNTFrteoJsLP4g">
                   <FontAwesomeIcon icon={faYoutube} /> YouTube
                 </a>
                 .
