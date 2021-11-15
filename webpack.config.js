@@ -2,6 +2,7 @@ const path = require("path");
 const fs = require("fs");
 const dotenv = require("dotenv");
 const webpack = require("webpack");
+// const glob = require("glob-all");
 
 const NodeExternals = require("webpack-node-externals");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
@@ -113,6 +114,24 @@ function configFn(envOptions, argv) {
       },
     },
   };
+  const postCssLoader = !isSsrMode && {
+    loader: "postcss-loader",
+    options: {
+      postcssOptions: {
+        plugins: [
+          require("postcss-preset-env")({
+            browsers: "last 2 versions",
+            stage: 3,
+          }),
+          // require("@fullhuman/postcss-purgecss")({
+          //   content: ["./src/**/*.{html,htm}", ...glob.sync(path.join(__dirname, "/**/*.{js,jsx}"), { nodir: true })],
+          //   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
+          //   safelist: ["html", "body"],
+          // }),
+        ],
+      },
+    },
+  };
   const sassLoader = !isSsrMode && {
     loader: "sass-loader",
     options: {
@@ -176,6 +195,7 @@ function configFn(envOptions, argv) {
     raw: true,
     entryOnly: false,
   });
+  const progressPlugin = new webpack.ProgressPlugin();
 
   // resolve plugins
   const distPath = !isSsrMode
@@ -188,10 +208,16 @@ function configFn(envOptions, argv) {
   // entries
   const entry = !isSsrMode
     ? ({
-      main: "./src/index.tsx",
+      main: {
+        import: "./src/index.tsx",
+        dependOn: "vendor",
+      },
     })
     : ({
-      server: "./src/server.tsx",
+      server: {
+        import: "./src/server.tsx",
+        dependOn: "vendor",
+      },
     });
 
   // main config
@@ -214,7 +240,17 @@ function configFn(envOptions, argv) {
       port: port,
     },
 
-    entry: entry,
+    optimization: {
+      minimize: !isDevMode,
+      splitChunks: {
+        chunks: "all",
+      },
+    },
+
+    entry: {
+        ...entry,
+        vendor: [ "react", "react-dom", "react-router", "react-router-dom" ],
+    },
 
     output: {
       path: distPath,
@@ -241,6 +277,7 @@ function configFn(envOptions, argv) {
       copyPluginServer,
       htmlPlugin,
       bannerPlugin,
+      progressPlugin,
     ].filter(Boolean),
 
     resolve: {
@@ -279,6 +316,7 @@ function configFn(envOptions, argv) {
             miniCssExtractLoader,
             cssModulesTypescriptLoader,
             cssLoader,
+            postCssLoader,
             ignoreLoader,
           ].filter(Boolean),
         },
@@ -290,6 +328,7 @@ function configFn(envOptions, argv) {
             miniCssExtractLoader,
             cssModulesTypescriptLoader,
             cssLoader,
+            postCssLoader,
             sassLoader,
             ignoreLoader,
           ].filter(Boolean),
