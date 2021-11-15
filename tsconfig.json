@@ -17,6 +17,7 @@
     },
     /* types */
     "types": [
+      "@types/webpack-env",
       "@types/jest",
       "jest-playwright-preset",
       "expect-playwright"

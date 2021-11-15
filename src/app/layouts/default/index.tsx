@@ -17,8 +17,11 @@ import "./assets/fonts/open-sans.scss";
 import "./assets/styles.scss";
 import layoutStyles from "./assets/styles.module.scss";
 
-// eslint-disable-next-line no-explicit-any
-function Layout(props: any) {
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
+function Layout(props: LayoutProps) {
   // the JSX syntax is quite intuitive but check out
   // https://facebook.github.io/react/docs/jsx-in-depth.html
   // if you need additional help
@@ -26,7 +29,7 @@ function Layout(props: any) {
     <>
       <header className={layoutStyles.pageHeader}>
         <h1>
-          <NavLink exact={true} to="/">Eser Ozvataf</NavLink>
+          <NavLink to="/">Eser Ozvataf</NavLink>
         </h1>
         <p>A technical generalist in consulting</p>
         <div className={layoutStyles.followIcons}>
@@ -55,7 +58,7 @@ function Layout(props: any) {
         </div>
 
         <h2>
-          <NavLink exact={true} to="/">Frontpage</NavLink>
+          <NavLink to="/">Frontpage</NavLink>
         </h2>
         <h2>
           <NavLink to="/cv/">Curriculum Vitae</NavLink>

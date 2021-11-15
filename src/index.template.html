@@ -7,13 +7,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <link rel="shortcut icon" href="/favicon.ico" />
-<% for (var css in htmlWebpackPlugin.files.css) { %>
+        <link rel="shortcut icon" href="/favicon.ico" /><% for (var css in htmlWebpackPlugin.files.css) { %>
         <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[css] %>" /><% } %>
     </head>
     <body>
         <div id="root"><%- htmlWebpackPlugin.options.innerHtml %></div>
-<% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
-        <script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script><% } %>
+
+        <!--<% if (process.env.APP_ENV !== "production") { %>
+        <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-router@5/umd/react-router.js"></script>
+        <script crossorigin src="https://unpkg.com/react-router-dom@5/umd/react-router-dom.js"></script><% } else { %>
+        <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-router@5/umd/react-router.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-router-dom@5/umd/react-router-dom.min.js"></script><% } %>
+        -->
+<% for (const file of htmlWebpackPlugin.files.js) { %>
+        <script src="<%= file %>"></script><% } %>
     </body>
 </html>

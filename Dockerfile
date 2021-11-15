@@ -1,5 +1,5 @@
 # Arguments
-ARG NODE_ENV=production
+ARG APP_ENV=production
 ARG PORT=3000
 
 
@@ -25,7 +25,7 @@ FROM node:alpine
 RUN apk add yarn
 
 # Environment variables
-ENV NODE_ENV=${NODE_ENV}
+ENV APP_ENV=${APP_ENV}
 ENV PORT=${PORT}
 
 # Create app directory

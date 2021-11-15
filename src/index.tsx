@@ -1,4 +1,3 @@
-/* eslint-disable no-underscore-dangle */
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
@@ -7,7 +6,6 @@ import App from "./app/app";
 import reportWebVitals from "./report-web-vitals";
 
 // environment variables
-// @ts-ignore
 const { SERVE } = process.env;
 
 const rootElement = document.getElementById("root");
@@ -24,9 +22,7 @@ renderer(
   rootElement,
 );
 
-// @ts-ignore
 if (SERVE && module.hot) {
-  // @ts-ignore
   module.hot.accept();
 }
 

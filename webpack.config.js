@@ -14,6 +14,7 @@ const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 function configFn(envOptions, argv) {
+  const isEsBuild = true;
   const isSsrMode = (envOptions && envOptions.SSR) || process.env.SSR === "1";
   const isDevMode = argv.mode !== "production";
   const env = process.env.APP_ENV ?? (isDevMode ? "development" : "production");
@@ -61,17 +62,24 @@ function configFn(envOptions, argv) {
   };
 
   // loaders
-  const babelLoader = !isSsrMode && isServeMode && {
+  const babelLoader = !isEsBuild && !isSsrMode && isServeMode && {
     loader: "babel-loader",
     options: {
       plugins: ["react-refresh/babel"],
     },
   };
-  const tsLoader = {
+  const tsLoader = !isEsBuild && {
     loader: "ts-loader",
     options: {
       configFile: tsConfig,
       transpileOnly: true,
+    },
+  };
+  const esBuildLoader = isEsBuild && {
+    loader: "esbuild-loader",
+    options: {
+      loader: "tsx",
+      target: "es2015",
     },
   };
   const styleLoader = !isSsrMode && isDevMode && { loader: "style-loader" };
@@ -136,6 +144,11 @@ function configFn(envOptions, argv) {
   const nodeExternalsPlugin = isSsrMode && NodeExternals({
     // load non-javascript files with extensions, presumably via loaders
     allowlist: [/\.(?!(?:[tj]sx?|json)$).{1,5}$/i],
+    modulesFromFile: {
+        fileName: `${currentPath}/package.json`,
+        // includeInBundle: [],
+        // excludeFromBundle: [],
+    },
   });
   const cleanPlugin = new CleanWebpackPlugin();
   const manifestPlugin = !isSsrMode && new WebpackManifestPlugin();
@@ -156,6 +169,7 @@ function configFn(envOptions, argv) {
     innerHtml: "",
     template: `${currentPath}/src/index.template.html`, // template file
     filename: "index.html", // output file
+    inject: false,
   });
   const bannerPlugin = isSsrMode && new webpack.BannerPlugin({
     banner: 'require("source-map-support").install();',
@@ -246,7 +260,7 @@ function configFn(envOptions, argv) {
     ].filter(Boolean),
 
     module: {
-      rules: [
+        rules: [
         {
           test: /\.[tj]sx?$/,
           // exclude: /\/node_modules\//,
@@ -254,6 +268,7 @@ function configFn(envOptions, argv) {
           use: [
             babelLoader,
             tsLoader,
+            esBuildLoader,
           ].filter(Boolean),
         },
         {

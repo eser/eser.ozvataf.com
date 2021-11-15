@@ -1,51 +1,54 @@
 .ui.header.home-header {
-    font-size: 3em;
-    font-weight: normal;
+  font-size: 3em;
+  font-weight: normal;
 
-    &:first-child {
-        margin-top: 0.3em;
-    }
+  &:first-child {
+    margin-top: 0.3em;
+  }
 
-    &:last-child {
-        margin-bottom: 0.6em;
-    }
+  &:last-child {
+    margin-bottom: 0.6em;
+  }
 }
 
 @media not print {
-    .ui.header.home-header {
-        display: none;
-    }
+
+  .ui.header.home-header {
+    display: none;
+  }
 }
 
 @media print {
-    .ui.ribbon.label {
-        left: 0;
-        padding: 0 0 0 1.6em;
-        font-size: 1.2em;
-        font-weight: 800;
 
-        & svg {
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
+  .ui.ribbon.label {
+    left: 0;
+    padding: 0 0 0 1.6em;
+    font-size: 1.2em;
+    font-weight: 800;
 
-        &:after {
-            display: none;
-        }
+    & svg {
+      position: absolute;
+      top: 0;
+      left: 0;
     }
 
-    .ui.right.ribbon.label {
-        transform: none;
+    &:after {
+      display: none;
     }
+  }
+
+  .ui.right.ribbon.label {
+    transform: none;
+  }
 }
 
 .boxed {
-    margin: 1em;
+  margin: 1em;
 }
 
 .links-with-icons {
-    a {
-        white-space: nowrap;
-    }
+
+  a {
+    white-space: nowrap;
+  }
 }

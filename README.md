@@ -28,7 +28,7 @@ This project contains my personal webpage's source code. It's built on
 - React Router for SPA routing.
 - Redux for state management.
 - bulma and Font-Awesome are included.
-- Jest for tests, ESLint for linting.
+- Jest for tests, Deno for linting/formatting.
 - Webpack bundling with code splitting enabled.
 - express for server-side rendering.
 

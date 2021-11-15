@@ -13,7 +13,9 @@
         "recommended"
       ],
       "include": [],
-      "exclude": []
+      "exclude": [
+          "no-empty-interface"
+      ]
     }
   },
   "fmt": {

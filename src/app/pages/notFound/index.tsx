@@ -3,9 +3,9 @@ import React from "react";
 function NotFound() {
   return (
     <>
-      <h1>Bulunamadı</h1>
+      <h1>Not Found</h1>
 
-      Gitmek istediğiniz sayfa bulunamadı.
+      The page you are trying to reach is could not be found.
     </>
   );
 }

@@ -1,5 +1,11 @@
-// eslint-disable-next-line no-explicit-any
-function Conditional(props: any) {
+import type { ReactNode } from "react";
+
+interface ConditionalProps {
+  test: boolean;
+  children: ReactNode;
+}
+
+function Conditional(props: ConditionalProps) {
   if (!props.test) {
     return null;
   }

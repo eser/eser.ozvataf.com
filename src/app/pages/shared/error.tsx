@@ -1,7 +1,10 @@
 import React from "react";
 
-// eslint-disable-next-line no-explicit-any
-function Error(props: any) {
+interface ErrorProps {
+  message: string;
+}
+
+function Error(props: ErrorProps) {
   return (
     <div>
       Hata:

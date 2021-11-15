@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router";
+import { Route, Routes } from "react-router";
 
 import ScrollToTop from "./scroll-to-top";
 
@@ -14,61 +14,57 @@ import NotFound from "./pages/notFound/index";
 function App() {
   return (
     <ScrollToTop>
-      <Switch>
+      <Routes>
         <Route
           path="/"
-          exact={true}
-          strict={true}
-          render={() => (
+          element={
             <Layout>
               <Frontpage />
             </Layout>
-          )}
+          }
         />
 
         <Route
           path="/about/"
-          exact={true}
-          strict={true}
-          render={() => (
+          element={
             <Layout>
               <About />
             </Layout>
-          )}
+          }
         />
         <Route
           path="/portfolio/"
-          exact={true}
-          strict={true}
-          render={() => (
+          element={
             <Layout>
               <Portfolio />
             </Layout>
-          )}
+          }
         />
         <Route
           path="/speaking/"
-          exact={true}
-          strict={true}
-          render={() => (
+          element={
             <Layout>
               <Speaking />
             </Layout>
-          )}
+          }
         />
         <Route
           path="/cv/"
-          exact={true}
-          strict={true}
-          render={() => (
+          element={
             <Layout>
               <Cv />
             </Layout>
-          )}
+          }
         />
-
-        <Route render={() => <NotFound />} />
-      </Switch>
+        <Route
+          path="*"
+          element={
+            <Layout>
+              <NotFound />
+            </Layout>
+          }
+        />
+      </Routes>
     </ScrollToTop>
   );
 }
