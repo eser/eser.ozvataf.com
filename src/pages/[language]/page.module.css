@@ -1,0 +1,54 @@
+.home-header {
+  font-size: 3em;
+  font-weight: normal;
+
+  &:first-child {
+    margin-top: 0.3em;
+  }
+
+  &:last-child {
+    margin-bottom: 0.6em;
+  }
+}
+
+@media not print {
+  .home-header {
+    display: none;
+  }
+}
+
+@media print {
+  .label-left,
+  .label-right {
+    left: 0 !important;
+    padding-left: 1.6em !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    font-size: 1.2em !important;
+    font-weight: 800 !important;
+
+    & svg {
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+    }
+
+    &:after {
+      display: none !important;
+    }
+  }
+
+  .label-right {
+    transform: none !important;
+  }
+}
+
+.boxed {
+  margin: 1em;
+}
+
+.links-with-icons {
+  & > a {
+    white-space: nowrap;
+  }
+}

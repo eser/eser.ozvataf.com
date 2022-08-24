@@ -1,0 +1,85 @@
+{
+  "name": "acikkaynak-website",
+  "private": false,
+  "description": "açık-kaynak.org web site",
+  "keywords": [
+    "acik",
+    "kaynak",
+    "web",
+    "site"
+  ],
+  "version": "0.11.0",
+  "homepage": "https://acik-kaynak.org",
+  "author": "açık-kaynak.org <bilgi@acik-kaynak.org> (https://twitter.com/_acikkaynak)",
+  "contributors": [
+    {
+      "name": "Eser Ozvataf",
+      "email": "eser@ozvataf.com",
+      "url": "https://eser.ozvataf.com/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acikkaynak/acikkaynak-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acikkaynak/acikkaynak-website/issues"
+  },
+  "license": "Apache-2.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "cloud:build": "next build",
+    "cloud:dev": "next dev",
+    "cleanup": "rm -rf yarn.lock package-lock.json node_modules/ .next/",
+    "build": "NO_CLOUD=1 next build",
+    "build:semantic": "gulp -f ./node_modules/fomantic-ui/gulpfile.js build",
+    "dev": "NO_CLOUD=1 next dev",
+    "export": "NO_CLOUD=1 next build && NO_CLOUD=1 next export",
+    "lint": "next lint",
+    "adr": "adr-tool",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "contentlayer": "^0.2.7",
+    "fetchp": "^0.0.34",
+    "fomantic-ui": "^2.8.8",
+    "markdown-wasm": "^1.2.0",
+    "next": "12.2.5",
+    "next-contentlayer": "^0.2.7",
+    "next-seo": "^5.5.0",
+    "next-themes": "^0.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "semantic-ui-react": "^2.1.3"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.1.3",
+    "@serverless/cloud": "^2.10.14",
+    "@types/node": "18.7.13",
+    "@types/react": "18.0.17",
+    "adr-tool": "^0.3.0",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "gulp": "^4.0.2",
+    "husky": "^8.0.1",
+    "next-transpile-modules": "^9.0.0",
+    "postcss": "^8.4.16",
+    "postcss-custom-properties": "^12.1.8",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-nesting": "^10.1.10",
+    "postcss-preset-env": "^7.8.0",
+    "typescript": "4.7.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "next lint",
+      "pre-push": "next lint"
+    }
+  }
+}

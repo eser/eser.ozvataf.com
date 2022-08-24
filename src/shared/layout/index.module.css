@@ -1,0 +1,20 @@
+.page-content {
+  display: block;
+  width: 100%;
+}
+
+/* Small Screens */
+@media only screen and (max-width: 800px) {
+  .page-content {
+    width: auto;
+    padding: 2em 2em 1em 2em;
+    margin-left: 0;
+  }
+}
+
+/* Tiny Screens */
+@media only screen and (max-width: 320px) {
+  .page-content {
+    padding: 1.2em 1.2em 0.6em 1.2em;
+  }
+}
