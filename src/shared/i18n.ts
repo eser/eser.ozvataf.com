@@ -1,13 +1,21 @@
-const languages = [
-  "en",
-  "tr",
+import translationsEn from "./translations/en.json";
+import translationsTr from "./translations/tr.json";
+
+interface Language {
+  code: string;
+  name: string;
+}
+
+const languages: Language[] = [
+  { code: "en", name: "English" },
+  // { code: "tr", name: "Türkçe" },
 ];
 
 const defaultLanguage = languages[0];
 
 const getLanguage = function getLanguage(
   languageId?: string | string[],
-): string | undefined {
+): Language | undefined {
   if (languageId === undefined || languageId === null) {
     return defaultLanguage;
   }
@@ -15,10 +23,34 @@ const getLanguage = function getLanguage(
   const languageId_ = Array.isArray(languageId) ? languageId[0] : languageId;
 
   const matchingLanguage = languages.find((language) =>
-    language === languageId_ || language.startsWith(`${languageId_}-`)
+    language.code === languageId_ || language.code.startsWith(`${languageId_}-`)
   );
 
   return matchingLanguage; // ?? defaultLanguage;
 };
 
-export { defaultLanguage, getLanguage, languages };
+// translations
+
+const loadedTranslations = {
+  en: translationsEn,
+  tr: translationsTr,
+};
+
+const useI18N = function useI18N(languageCode: string) {
+  if (!(languageCode in loadedTranslations)) {
+    // disabled due to async restrictions
+    // loadedTranslations[languageCode] = await import(
+    //   `./translations/${languageCode}.json`
+    // );
+    throw new Error(`language code is not supported: ${languageCode}`);
+  }
+
+  return {
+    t: (key: string) => {
+      return loadedTranslations[languageCode][key] ?? `{{${key}}}`;
+    },
+    formatDate: (date: Date) => date.toLocaleDateString(languageCode),
+  };
+};
+
+export { defaultLanguage, getLanguage, type Language, languages, useI18N };

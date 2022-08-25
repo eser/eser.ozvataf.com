@@ -3,11 +3,12 @@ import Head from "next/head";
 import { Header } from "./header";
 import { Footer } from "./footer";
 import { type CustomAppProps } from "@webclient/pages/_app.types";
+import { type Language } from "@webclient/shared/i18n";
 
 import styles from "./index.module.css";
 
 interface LayoutProps {
-  lang: string;
+  lang: Language;
   appProps: CustomAppProps;
   children: ReactNode;
 }
@@ -16,6 +17,7 @@ const Layout = function Layout(props: LayoutProps) {
   return (
     <>
       <Head>
+        <html lang={props.lang.code} />
         <meta charSet="utf-8" />
         <link rel="icon" href="/favicon.ico" />
         <meta

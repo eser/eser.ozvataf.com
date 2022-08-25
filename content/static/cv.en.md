@@ -6,6 +6,10 @@ date: 2022-08-21
 ## Experience
 -------------
 
+### Engineering Director & DevRel, Getir
+
+Dec 2021 - Present
+
 ### Director, Açık Yazılım
 
 Nov 2020 - Present

@@ -1,6 +1,7 @@
 import { NextSeo } from "next-seo";
 import { Header } from "semantic-ui-react";
 import { type CustomPage } from "@webclient/pages/_app.types";
+import { type Language, useI18N } from "@webclient/shared/i18n";
 import { allStories, Story } from "@contentlayer/generated";
 import styles from "./page.module.css";
 
@@ -26,15 +27,18 @@ const getStaticProps = async function getStaticProps({ params }) {
 };
 
 interface StoryPageProps {
+  lang: Language;
   story: Story;
 }
 
 const StoryPage: CustomPage = function Story(props: StoryPageProps) {
-  const date = new Date(props.story.date).toLocaleString("tr-TR");
+  const { t, formatDate } = useI18N(props.lang.code);
+
+  const date = formatDate(new Date(props.story.date));
 
   return (
     <>
-      <NextSeo title={`Stories - ${props.story.title}`} />
+      <NextSeo title={`${t("Stories")} - ${props.story.title}`} />
 
       <article className={styles.article}>
         <div className={styles.story}>

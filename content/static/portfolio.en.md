@@ -6,8 +6,7 @@ date: 2022-08-21
 ## Content and Projects
 -----------------------
 
-- [Twitch Streams](https://twitch.com/laroux) (twitch.com/laroux)
-- [YouTube Videos](https://www.youtube.com/EserOzvataf) (youtube.com/EserOzvataf)
+- [YouTube Streams and Videos](https://youtube.com/EserOzvataf) (youtube.com/EserOzvataf)
 - [GitHub Profile](https://github.com/eserozvataf) (github.com/eserozvataf)
 
 
@@ -15,7 +14,8 @@ date: 2022-08-21
 ---------------
 
 - [açık-kaynak.org](https://acik-kaynak.org) (acik-kaynak.org)
-- [JSTANBUL](https://kommunity.com/jstanbul) (kommunity.com/jstanbul)
+- [JSTANBUL](https://kommunity.com/jstanbul) (jstanbul.org)
+- [Dev İzmir](https://devizmir.com/) (devizmir.com)
 
 
 ## Open Source Projects I Started
@@ -23,6 +23,7 @@ date: 2022-08-21
 
 [hex](https://github.com/eserozvataf/hex),
 [hex-service](https://github.com/eserozvataf/hex-service),
+[fetchp](https://github.com/eserozvataf/fetchp),
 [darty](https://github.com/eserozvataf/darty),
 [Tassle](https://github.com/eserozvataf/tassle),
 [laroux.js](https://github.com/eserozvataf/laroux.js),

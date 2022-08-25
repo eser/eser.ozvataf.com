@@ -1,13 +1,14 @@
+import { type Language } from "@webclient/shared/i18n";
 import styles from "./footer.module.css";
 
 interface FooterProps {
-  lang: string;
+  lang: Language;
 }
 
 const Footer = (props: FooterProps) => {
   return (
     <footer className={styles["page-footer"]}>
-      <section>© 2020 Eser Ozvataf.</section>
+      <section>© {new Date().getFullYear()} Eser Ozvataf.</section>
     </footer>
   );
 };

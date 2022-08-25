@@ -2,28 +2,46 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { Header as SuirHeader } from "semantic-ui-react";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithubSquare,
   faLinkedin,
   faTumblrSquare,
-  faTwitch,
   faTwitterSquare,
   faYoutubeSquare,
 } from "@fortawesome/free-brands-svg-icons";
-
+import {
+  type Language,
+  languages,
+  useI18N,
+} from "@webclient/shared/i18n";
+import { Joiner } from "@webclient/shared/react/joiner";
 import { ThemeSwitcher } from "./theme-switcher";
 import styles from "./header.module.css";
 
 interface HeaderProps {
-  lang: string;
+  lang: Language;
 }
+
+const LanguageSwitcher = function LanguageSwitcher(props: HeaderProps) {
+  return (
+    <Joiner
+      arr={languages.filter((language) => language.code !== props.lang?.code)}
+      renderer={(lang) => (
+        <Link key={lang.code} href={`/${lang.code}/`}>
+          <a>{lang.name}</a>
+        </Link>
+      )}
+      separator={" | "}
+    />
+  );
+};
 
 const Header = (props: HeaderProps) => {
   const [mounted, setMounted] = useState(false);
   const { theme } = useTheme();
+  const { t } = useI18N(props.lang.code);
 
   useEffect(() => setMounted(true), []);
 
@@ -34,13 +52,10 @@ const Header = (props: HeaderProps) => {
   return (
     <header className={styles["page-header"]}>
       <SuirHeader as="h1">
-        <Link href={`/${props.lang}/`}>Eser Ozvataf</Link>
+        <Link href={`/${props.lang.code}/`}>Eser Ozvataf</Link>
       </SuirHeader>
-      <p>A technical generalist in consulting</p>
+      <p>{t("A technical generalist in consulting")}</p>
       <div className={styles["follow-icons"]}>
-        <a aria-label="Twitch" href="https://twitch.tv/laroux">
-          <FontAwesomeIcon size="2x" icon={faTwitch} />
-        </a>
         <a aria-label="Youtube" href="https://youtube.com/EserOzvataf">
           <FontAwesomeIcon size="2x" icon={faYoutubeSquare} />
         </a>
@@ -57,33 +72,31 @@ const Header = (props: HeaderProps) => {
           <FontAwesomeIcon size="2x" icon={faLinkedin} />
         </a>
         {/* <a aria-label="Telegram" href="https://telegram.me/esero"><FontAwesomeIcon size="2x" icon={faTelegramPlane} /></a> */}
-        <a aria-label="E-Mail" href="mailto:eser@ozvataf.com">
+        {
+          /* <a aria-label="E-Mail" href="mailto:eser@ozvataf.com">
           <FontAwesomeIcon size="2x" icon={faEnvelopeSquare} />
-        </a>
+        </a> */
+        }
       </div>
 
       <h2>
-        <Link href={`/${props.lang}/`}>Frontpage</Link>
+        <Link href={`/${props.lang.code}/`}>{t("Frontpage")}</Link>
       </h2>
       <h2>
-        <Link href={`/${props.lang}/stories/`}>Stories</Link>
+        <Link href={`/${props.lang.code}/stories/`}>{t("Stories")}</Link>
       </h2>
       <h2>
-        <Link href={`/${props.lang}/speaking/`}>Speaking</Link>
+        <Link href={`/${props.lang.code}/speaking/`}>{t("Speaking")}</Link>
       </h2>
       <h2>
-        <Link href={`/${props.lang}/cv/`}>Curriculum Vitae</Link>
+        <Link href={`/${props.lang.code}/cv/`}>{t("Curriculum Vitae")}</Link>
       </h2>
       <h2>
-        <Link href={`/${props.lang}/portfolio/`}>Portfolio</Link>
+        <Link href={`/${props.lang.code}/portfolio/`}>{t("Portfolio")}</Link>
       </h2>
-      {
-        /*
-          <h2>
-            <Link href={`/${props.lang}/about/`}>About Me</Link>
-          </h2>
-          */
-      }
+      <h5>
+        <LanguageSwitcher {...props} />
+      </h5>
     </header>
   );
 };

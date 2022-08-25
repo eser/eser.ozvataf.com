@@ -1,6 +1,10 @@
 import { NextSeo } from "next-seo";
 import { Header } from "semantic-ui-react";
 import { type CustomPage } from "@webclient/pages/_app.types";
+import {
+  type Language,
+  // useI18N,
+} from "@webclient/shared/i18n";
 import { allStaticPages, StaticPage } from "@contentlayer/generated";
 import styles from "./page.module.css";
 
@@ -26,11 +30,14 @@ const getStaticProps = async function getStaticProps({ params }) {
 };
 
 interface StaticPageProps {
+  lang: Language;
   staticPage: StaticPage;
 }
 
 const StaticPage: CustomPage = function StaticPage(props: StaticPageProps) {
-  // const date = new Date(props.staticPage.date).toLocaleString("tr-TR");
+  // const { formatDate } = useI18N(props.lang.code);
+
+  // const date = formatDate(new Date(props.staticPage.date));
 
   return (
     <>
@@ -39,9 +46,11 @@ const StaticPage: CustomPage = function StaticPage(props: StaticPageProps) {
       <article className={styles.article}>
         <div className={styles.page}>
           <Header as="h1">{props.staticPage.title}</Header>
-          {/* <time dateTime={date}>
+          {
+            /* <time dateTime={date}>
             {date}
-          </time> */}
+          </time> */
+          }
           <div
             className={styles.content}
             dangerouslySetInnerHTML={{ __html: props.staticPage.body.html }}

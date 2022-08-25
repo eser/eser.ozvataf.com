@@ -1,5 +1,5 @@
 ---
-title: Speaking
+title: Konuşmalar
 date: 2022-08-21
 ---
 
